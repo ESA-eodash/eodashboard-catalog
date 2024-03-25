@@ -1,0 +1,259 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "dunkirk_SPM_2020-01-01_to_2020-12-31_day",
+  "properties": {
+    "proj:bbox": [
+      1.973152455,
+      50.729008826866135,
+      3.4145413439381342,
+      51.395119938
+    ],
+    "proj:epsg": 4326.0,
+    "proj:shape": [
+      2398.0,
+      5189.0
+    ],
+    "end_datetime": "2020-12-31T23:59:59+00:00",
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            1.973152455,
+            50.729008826866135
+          ],
+          [
+            3.4145413439381342,
+            50.729008826866135
+          ],
+          [
+            3.4145413439381342,
+            51.395119938
+          ],
+          [
+            1.973152455,
+            51.395119938
+          ],
+          [
+            1.973152455,
+            50.729008826866135
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.0002777777777872681,
+      0.0,
+      1.973152455,
+      0.0,
+      -0.0002777777777872681,
+      51.395119938,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "start_datetime": "2020-01-01T00:00:00+00:00",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          1.973152455,
+          50.729008826866135
+        ],
+        [
+          3.4145413439381342,
+          50.729008826866135
+        ],
+        [
+          3.4145413439381342,
+          51.395119938
+        ],
+        [
+          1.973152455,
+          51.395119938
+        ],
+        [
+          1.973152455,
+          50.729008826866135
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/slowdown-proxy-covid-19-changing-landscapes/dunkirk_SPM_2020-01-01_to_2020-12-31_day.tif&resampling_method=nearest&bidx=1&bidx=2&bidx=3",
+      "type": "image/png",
+      "title": "slowdown_proxy"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Slowdown proxy Covid-19"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Port of Dunkirk"
+      ]
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/slowdown-proxy-covid-19-changing-landscapes/dunkirk_SPM_2020-01-01_to_2020-12-31_day.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint8",
+          "histogram": {
+            "max": 0.5,
+            "min": -0.5,
+            "count": 11.0,
+            "buckets": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              454.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "statistics": {
+            "mean": 0.0,
+            "stddev": 0.0,
+            "maximum": 0.0,
+            "minimum": 0.0,
+            "valid_percent": 0.09353573312236287
+          }
+        },
+        {
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint8",
+          "histogram": {
+            "max": 75.0,
+            "min": 0.0,
+            "count": 11.0,
+            "buckets": [
+              159.0,
+              0.0,
+              2.0,
+              1.0,
+              7.0,
+              10.0,
+              28.0,
+              40.0,
+              88.0,
+              119.0
+            ]
+          },
+          "statistics": {
+            "mean": 40.73568281938326,
+            "stddev": 31.177701633688596,
+            "maximum": 75.0,
+            "minimum": 0.0,
+            "valid_percent": 0.09353573312236287
+          }
+        },
+        {
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint8",
+          "histogram": {
+            "max": 180.0,
+            "min": 0.0,
+            "count": 11.0,
+            "buckets": [
+              159.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              295.0
+            ]
+          },
+          "statistics": {
+            "mean": 115.5352422907489,
+            "stddev": 84.84322074272384,
+            "maximum": 180.0,
+            "minimum": 0.0,
+            "valid_percent": 0.09353573312236287
+          }
+        },
+        {
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint8",
+          "histogram": {
+            "max": 166.0,
+            "min": 0.0,
+            "count": 11.0,
+            "buckets": [
+              159.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              295.0
+            ]
+          },
+          "statistics": {
+            "mean": 107.86343612334802,
+            "stddev": 79.18844324862178,
+            "maximum": 166.0,
+            "minimum": 0.0,
+            "valid_percent": 0.09353573312236287
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    }
+  },
+  "bbox": [
+    1.973152455,
+    50.729008826866135,
+    3.4145413439381342,
+    51.395119938
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "slowdown_proxy"
+}

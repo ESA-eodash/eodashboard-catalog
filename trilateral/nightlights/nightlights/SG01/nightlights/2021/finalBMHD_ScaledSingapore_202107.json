@@ -1,0 +1,185 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "finalBMHD_ScaledSingapore_202107",
+  "properties": {
+    "proj:bbox": [
+      103.63,
+      1.23,
+      104.03,
+      1.47
+    ],
+    "proj:epsg": 4326.0,
+    "proj:shape": [
+      2160.0,
+      3600.0
+    ],
+    "end_datetime": "2021-07-31T00:00:00",
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            103.63,
+            1.23
+          ],
+          [
+            104.03,
+            1.23
+          ],
+          [
+            104.03,
+            1.47
+          ],
+          [
+            103.63,
+            1.47
+          ],
+          [
+            103.63,
+            1.23
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00011111111111111269,
+      0.0,
+      103.63,
+      0.0,
+      -0.00011111111111111112,
+      1.47,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "start_datetime": "2021-07-01T00:00:00",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          103.63,
+          1.23
+        ],
+        [
+          104.03,
+          1.23
+        ],
+        [
+          104.03,
+          1.47
+        ],
+        [
+          103.63,
+          1.47
+        ],
+        [
+          103.63,
+          1.23
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "preview",
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/map?collection=nightlights-hd-monthly&item=finalBMHD_ScaledSingapore_202107&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "text/html",
+      "title": "Map of Item"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledSingapore_202107.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
+      "type": "image/png",
+      "title": "nightlights"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Nightlights"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Singapore"
+      ]
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledSingapore_202107.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint16",
+          "histogram": {
+            "max": 255.0,
+            "min": 1.0,
+            "count": 11.0,
+            "buckets": [
+              19488.0,
+              50765.0,
+              30484.0,
+              35786.0,
+              42914.0,
+              51869.0,
+              45651.0,
+              37730.0,
+              19258.0,
+              48994.0
+            ]
+          },
+          "statistics": {
+            "mean": 132.13896469150438,
+            "stddev": 69.13482731203652,
+            "maximum": 255.0,
+            "minimum": 1.0,
+            "valid_percent": 60.807132876016254
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/preview.png?collection=nightlights-hd-monthly&item=finalBMHD_ScaledSingapore_202107&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "bbox": [
+    103.63,
+    1.23,
+    104.03,
+    1.47
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "nightlights"
+}

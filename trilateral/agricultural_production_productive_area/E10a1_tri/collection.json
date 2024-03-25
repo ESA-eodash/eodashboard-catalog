@@ -1,0 +1,97 @@
+{
+  "type": "Collection",
+  "id": "E10a1_tri",
+  "stac_version": "1.0.0",
+  "description": "## Agricultural production\n\n**Earth Observation** can provide timely information for monitoring border closures & transport restriction and changing food demand on agricultural activities related to food production. Satellite observations, such as from **Sentinel-2**, allow to map the cultivated fields and ongoing activities continuously throughout the harvesting period. \n\n\n## The impacts of COVID-19 on Water Agricultural production in Europe\n\nOrganizations like **[FAO](http://www.fao.org/home/en/)** and **[WFP](https://www.wfp.org/)** expressed their concerns that the COVID-19 outbreak might turn from a health crisis to a global food [crisis](http://www.fao.org/news/story/en/item/1272058/icode/).\n\n#### Impact of boarder closure on labour-intensive crops:\n#### Asparagus in Germany\n\nThe lock-down due to the COVID19 outbreak severely restricted the movement of seasonal agricultural workers in Europe. The **[German Agricultural Ministry](https://www.bmel.de/)** was expecting in end of March a lack of 300.000 workers in the agricultural sector for the [crop season of 2020](https://www.politico.eu/article/coronavirus-agriculture-coronavirus-hit-countries-to-newly-unemployed-help-us-farm/ ). The harvesting of **asparagus** is a highly labour-intensive activity which risks to be significantly affected by the lack of seasonal workers which normally are arriving from Bulgaria and Romania to support the German farmers during the harvest period in March to June.\n\n##### ESA Video \u2013 Earth Observation monitoring border closure and asparagus harvesting\n\n<video controls>\n  <source src=\"https://dlmultimedia.esa.int/download/public/videos/2020/05/016/2005_016_AR_EN.mp4\" width=\"100%\" allowfullscreen></source>\n</video>\n\n[Access Video URL](https://dlmultimedia.esa.int/download/public/videos/2020/05/016/2005_016_AR_EN.mp4)\n\n Satellite observations, such as from **Sentinel-2**, allow to map the cultivated white asparagus fields and ongoing activities continuously throughout the harvesting period. For this purpose, the full German federal state of **Brandenburg** (29.500 sqkm) is monitored and compared to the 2019 season to assess the impact of COVID19 on the current asparagus production. The asparagus season started early in 2020 but as soon as the COVID19 lock-down started the cultivated area of asparagus fields was reduced significantly as can be seen in the 20-30% lower area in March and April. The reduced amount of fields cultivated will lead to a significant lower production of asparagus and related economic loss for German farmers - in 2019 Brandenburg produced about **[16% of the German asparagus harvest](https://agrarbericht.brandenburg.de/abo/de/start/produktion/gartenbau/)**.\n\n##### Sentinel-2 time series animation showing differences in 2019 and 2020\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/Sentinel-2_L1C-timelapse-3.gif)\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E10a1_agricultural_production_productive_area/Sentinel-2_L1C-timelapse-4.gif)\n\n##### BBC News on German farmer witnessing 50% harvest loss\n\n[Access Video URL](https://www.bbc.com/news/av/embed/p08dj8wy/52715288)\n\n<iframe src=\"https://www.bbc.com/news/av/embed/p08dj8wy/52715288\" width=\"600\" height=\"400\" frameborder=\"0\"></iframe>\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a1_tri/2020/Brandenburg.json",
+      "type": "application/json",
+      "id": "DE11",
+      "latlng": "52.13141,13.09063",
+      "country": "DE",
+      "city": "Brandenburg"
+    },
+    {
+      "rel": "item",
+      "href": "./E10a1_tri/2019/Huelva Lagunas de las Madres.json",
+      "type": "application/json",
+      "id": "ES8",
+      "latlng": "37.18316,-6.84888",
+      "country": "ES",
+      "city": "Huelva (Lagunas de las Madres)"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - productive area"
+    }
+  ],
+  "subtitle": "COVID-19 impact on agricultural production in Europe",
+  "yAxis": "Total area [ha]",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E10a1",
+  "endpointtype": "GeoDB",
+  "title": "Agricultural production - productive area",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -6.85888,
+          37.17316,
+          13.10063,
+          52.14141
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-27T11:21:32Z",
+          "2020-07-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "FAO"
+    },
+    {
+      "name": "WFP"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "Brandenburg",
+      "Huelva (Lagunas de las Madres)"
+    ],
+    "countries": [
+      "DE",
+      "ES"
+    ]
+  }
+}

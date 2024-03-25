@@ -1,0 +1,230 @@
+{
+  "type": "Collection",
+  "id": "recovery_proxy",
+  "stac_version": "1.0.0",
+  "description": "## Slowdown & Recovery Proxy Maps\r\n\r\nAs businesses closed and stay-at-home orders were enacted to slow the spread of the COVID-19 pandemic, cities across the world have seen reductions in automobile traffic. NASA researchers are tracking these changes from space using remotely sensed data. \r\n\r\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N7_slowdown_proxy/N7-Fig-1.png)\r\n\r\nHigh-resolution radar that makes 2D images of 3D objects, known as synthetic aperture radar (SAR), can spot these changes on the ground by comparing images of the same area at different times. Researchers are using SAR data to detect changes in the positions of objects on the ground during the COVID-19 pandemic, such as cars parked at retail businesses, grocery stores, and in residential neighborhoods. Researchers then compare the SAR imagery for several time periods over an entire city \u2013 a method called coherent change detection. The lack of cars and other human movement on the ground results in greater similarity between the images.\r\n\r\n\r\nThis SAR processing approach was initially developed to generate [Damage Proxy Maps](https://appliedsciences.nasa.gov/our-impact/news/aria-damage-proxy-map-lombok-indonesia-earthquake), which pinpoint the locations of building damage following major natural disasters.\r\n\r\nSimilarly, by comparing SAR image data before and after COVID-19 lockdowns, NASA researchers have produced \u201cSlowdown Proxy Maps\u201d and \"Recovery Proxy Maps\" which reveal where vehicle and construction activity has slowed during COVID-19 shutdowns and where this activity has recovered respectively. These slower/recovering areas are shown on the map in the blue-shaded regions and orange-shaded regions respectively.\r\n\r\nPreliminary findings in the Slowdown Proxy Maps for the Los Angeles area, for example, indicate the greatest decrease in car activity near airports, sports stadiums, and non-essential businesses. These findings, and others from around the world, will allow researchers to monitor trends in activities over time and between cities. This analysis could help validate reductions in carbon dioxide and nitrogen dioxide emissions based on where and when slowdowns in vehicle activity occur. \r\n\r\nThe Recovery Proxy Maps track when and where activity begins to increase as COVID-19 restrictions ease. \r\n\r\n### Scientific Research\r\n\r\nThe Advanced Rapid Imaging and Analysis (ARIA) team at NASA's Jet Propulsion Laboratory in Pasadena, California, in collaboration with the Earth Observatory of Singapore (EOS), is leading this research using innovative methods and high-performance computing. The team is using SAR data from the Copernicus Sentinel-1 mission, operated by the European Space Agency (ESA), and the ALOS-2 mission, operated by the Japan Aerospace Exploration Agency (JAXA). SAR instruments are able to penetrate cloud cover and work in both day and night conditions.\r\n\r\n\u201cWe\u2019ve developed a new algorithm to detect and monitor changes in human activity in response to virus-related social restrictions, and the research is building upon methods we\u2019ve used to detect damaged areas after an earthquake or tropical cyclone,\u201d said Sang-Ho Yun, principal investigator of the research at JPL.\r\n\r\n### Interpreting the Data\r\n\r\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N7_slowdown_proxy/N7-Fig-2.png)\r\n\r\nSlowdown Proxy Maps produced by ARIA and EOS researchers show areas with the greatest reduction in car activity shaded in blue. Darker blues indicate areas of greater change.\r\n\r\nThese maps show significant changes in the number of cars in the parking lots of shopping malls such as the Burbank Empire Shopping Mall in California, where the parking lot of a non-essential business had significant slowdown after closing down, compared to a nearby business that was considered essential and remained open.\r\n\r\nAlthough changes in activity in parking lots are prominent in the maps, SAR measurements also pick up other changes in human activities, such as construction activity and the movement of shipping containers.\r\n\r\n#### Credit\r\n\r\nARIA at NASA-JPL/Caltech\r\n\r\nEOS at Nanyang Technological University\r\n\r\n#### Additional Resources\r\n\r\n[What is Synthetic Aperture Radar?](https://earthdata.nasa.gov/learn/what-is-sar)\r\n\r\n[Disasters program area of NASA's Earth Science Applied Sciences Program](https://appliedsciences.nasa.gov/what-we-do/disasters)\r\n\r\n[European Space Agency - Earth Observation Applications](https://www.esa.int/Applications/Observing_the_Earth)\r\n\r\n[Disaster monitoring with Earth Observation Satellites](https://www.esa.int/ESA_Multimedia/Keywords/Description/Disasters/(result_type)/videos)\r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./CN01/collection.json",
+      "type": "application/json",
+      "title": [
+        "Beijing"
+      ],
+      "id": "CN01",
+      "latlng": "39.9,116.38",
+      "name": "Beijing"
+    },
+    {
+      "rel": "child",
+      "href": "./US10/collection.json",
+      "type": "application/json",
+      "title": [
+        "Washington, D.C."
+      ],
+      "id": "US10",
+      "latlng": "38.90472,-77.01638",
+      "name": "Washington, D.C."
+    },
+    {
+      "rel": "child",
+      "href": "./FR03/collection.json",
+      "type": "application/json",
+      "title": [
+        "Port of Dunkirk"
+      ],
+      "id": "FR03",
+      "latlng": "51.03613,2.28537",
+      "name": "Port of Dunkirk"
+    },
+    {
+      "rel": "child",
+      "href": "./BE03/collection.json",
+      "type": "application/json",
+      "title": [
+        "Port of Ghent"
+      ],
+      "id": "BE03",
+      "latlng": "51.09155,3.74008",
+      "name": "Port of Ghent"
+    },
+    {
+      "rel": "child",
+      "href": "./JP01/collection.json",
+      "type": "application/json",
+      "title": [
+        "Tokyo"
+      ],
+      "id": "JP01",
+      "latlng": "35.61,139.78",
+      "name": "Tokyo"
+    },
+    {
+      "rel": "child",
+      "href": "./TG01/collection.json",
+      "type": "application/json",
+      "title": [
+        "Togo"
+      ],
+      "id": "TG01",
+      "latlng": "6.13333,1.21666",
+      "name": "Togo"
+    },
+    {
+      "rel": "child",
+      "href": "./US02/collection.json",
+      "type": "application/json",
+      "title": [
+        "Los Angeles"
+      ],
+      "id": "US02",
+      "latlng": "34.05,-118.25",
+      "name": "Los Angeles"
+    },
+    {
+      "rel": "child",
+      "href": "./TZ01/collection.json",
+      "type": "application/json",
+      "title": [
+        "Dar El Salam"
+      ],
+      "id": "TZ01",
+      "latlng": "-6.8,39.28333",
+      "name": "Dar El Salam"
+    },
+    {
+      "rel": "child",
+      "href": "./US04/collection.json",
+      "type": "application/json",
+      "title": [
+        "New York"
+      ],
+      "id": "US04",
+      "latlng": "41.0114,-73.09",
+      "name": "New York"
+    },
+    {
+      "rel": "child",
+      "href": "./US03/collection.json",
+      "type": "application/json",
+      "title": [
+        "San Francisco"
+      ],
+      "id": "US03",
+      "latlng": "37.7775,-122.41638",
+      "name": "San Francisco"
+    },
+    {
+      "rel": "child",
+      "href": "./US06/collection.json",
+      "type": "application/json",
+      "title": [
+        "Sacramento"
+      ],
+      "id": "US06",
+      "latlng": "38.715,-121.944",
+      "name": "Sacramento"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Recovery proxy Covid-19"
+    }
+  ],
+  "endpointtype": "VEDA_cog",
+  "title": "Recovery proxy Covid-19",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -122.95334866499998,
+          -7.335621996172708,
+          140.8197117750449,
+          51.424290027
+        ],
+        [
+          115.11170833999999,
+          39.45337467934324,
+          117.30337500615605,
+          40.449763567999995
+        ],
+        [
+          -78.11011901599998,
+          38.465402119149424,
+          -75.86484123791153,
+          39.794568786
+        ],
+        [
+          1.162952178,
+          50.70592333959897,
+          4.676784191065174,
+          51.424290027
+        ],
+        [
+          1.162952178,
+          50.70592333959897,
+          4.676784191065174,
+          51.424290027
+        ],
+        [
+          138.716378442,
+          35.07212784707108,
+          140.8197117750449,
+          36.400738958
+        ],
+        [
+          -0.876020861,
+          5.686939596845617,
+          2.56425691673783,
+          11.529161819
+        ],
+        [
+          -118.93889179599998,
+          33.514506495225895,
+          -116.82250290689015,
+          34.543673162
+        ],
+        [
+          38.609892598,
+          -7.335621996172708,
+          39.612114820822406,
+          -6.30506644
+        ],
+        [
+          -75.35177368,
+          40.27566399653131,
+          -72.14482923583465,
+          41.273719552
+        ],
+        [
+          -122.95334866499998,
+          37.014978194370244,
+          -120.95195977636587,
+          38.177755972
+        ],
+        [
+          -122.13280968599999,
+          38.20575857167799,
+          -119.99697635315422,
+          39.228814127
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2020-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

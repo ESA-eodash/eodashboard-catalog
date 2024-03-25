@@ -1,0 +1,185 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "finalBMHD_ScaledBarcelona_202001",
+  "properties": {
+    "proj:bbox": [
+      1.469171475,
+      41.15634032,
+      2.617242764,
+      41.84748412
+    ],
+    "proj:epsg": 4326.0,
+    "proj:shape": [
+      6221.0,
+      10333.0
+    ],
+    "end_datetime": "2020-01-31T00:00:00",
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            1.469171475,
+            41.15634032
+          ],
+          [
+            2.617242764,
+            41.15634032
+          ],
+          [
+            2.617242764,
+            41.84748412
+          ],
+          [
+            1.469171475,
+            41.84748412
+          ],
+          [
+            1.469171475,
+            41.15634032
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00011110725723410434,
+      0.0,
+      1.469171475,
+      0.0,
+      -0.00011109850506349446,
+      41.84748412,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "start_datetime": "2020-01-01T00:00:00",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          1.469171475,
+          41.15634032
+        ],
+        [
+          2.617242764,
+          41.15634032
+        ],
+        [
+          2.617242764,
+          41.84748412
+        ],
+        [
+          1.469171475,
+          41.84748412
+        ],
+        [
+          1.469171475,
+          41.15634032
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "preview",
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/map?collection=nightlights-hd-monthly&item=finalBMHD_ScaledBarcelona_202001&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "text/html",
+      "title": "Map of Item"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledBarcelona_202001.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
+      "type": "image/png",
+      "title": "nightlights"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Nightlights"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Barcelona"
+      ]
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledBarcelona_202001.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint16",
+          "histogram": {
+            "max": 255.0,
+            "min": 1.0,
+            "count": 11.0,
+            "buckets": [
+              10200.0,
+              128435.0,
+              8009.0,
+              7210.0,
+              6969.0,
+              6942.0,
+              7687.0,
+              8547.0,
+              6276.0,
+              16507.0
+            ]
+          },
+          "statistics": {
+            "mean": 81.48323355030902,
+            "stddev": 69.02844233530197,
+            "maximum": 255.0,
+            "minimum": 1.0,
+            "valid_percent": 32.7286137560778
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/preview.png?collection=nightlights-hd-monthly&item=finalBMHD_ScaledBarcelona_202001&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "bbox": [
+    1.469171475,
+    41.15634032,
+    2.617242764,
+    41.84748412
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "nightlights"
+}

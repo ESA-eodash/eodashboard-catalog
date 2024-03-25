@@ -1,0 +1,185 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "finalBMHD_ScaledDhaka_Dhaka-city_201907",
+  "properties": {
+    "proj:bbox": [
+      90.31,
+      23.64,
+      90.53,
+      23.91
+    ],
+    "proj:epsg": 4326.0,
+    "proj:shape": [
+      2430.0,
+      1980.0
+    ],
+    "end_datetime": "2019-07-31T00:00:00",
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            90.31,
+            23.64
+          ],
+          [
+            90.53,
+            23.64
+          ],
+          [
+            90.53,
+            23.91
+          ],
+          [
+            90.31,
+            23.91
+          ],
+          [
+            90.31,
+            23.64
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00011111111111111055,
+      0.0,
+      90.31,
+      0.0,
+      -0.00011111111111111091,
+      23.91,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "start_datetime": "2019-07-01T00:00:00",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          90.31,
+          23.64
+        ],
+        [
+          90.53,
+          23.64
+        ],
+        [
+          90.53,
+          23.91
+        ],
+        [
+          90.31,
+          23.91
+        ],
+        [
+          90.31,
+          23.64
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "preview",
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/map?collection=nightlights-hd-monthly&item=finalBMHD_ScaledDhaka_Dhaka-city_201907&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "text/html",
+      "title": "Map of Item"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledDhaka_Dhaka-city_201907.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
+      "type": "image/png",
+      "title": "nightlights"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Nightlights"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Dhaka"
+      ]
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledDhaka_Dhaka-city_201907.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint16",
+          "histogram": {
+            "max": 255.0,
+            "min": 1.0,
+            "count": 11.0,
+            "buckets": [
+              54520.0,
+              48963.0,
+              47288.0,
+              42232.0,
+              32497.0,
+              23043.0,
+              13082.0,
+              6461.0,
+              2742.0,
+              1238.0
+            ]
+          },
+          "statistics": {
+            "mean": 75.93721008872848,
+            "stddev": 51.65621924115132,
+            "maximum": 255.0,
+            "minimum": 1.0,
+            "valid_percent": 31.81909618263473
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/preview.png?collection=nightlights-hd-monthly&item=finalBMHD_ScaledDhaka_Dhaka-city_201907&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "bbox": [
+    90.31,
+    23.64,
+    90.53,
+    23.91
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "nightlights"
+}

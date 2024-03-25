@@ -1,0 +1,137 @@
+{
+  "type": "Collection",
+  "id": "N12_1_sea_ice_concentration_arctic",
+  "stac_version": "1.0.0",
+  "description": "## GCOM-W Sea Ice Concentration\n\nJAXA is releasing Sea ice data observed by JAXA's [Global Change Observation Mission \u2013 Water \u201cSHIZUKU\u201d (GCOM-W)](https://global.jaxa.jp/projects/sat/gcom_w/). Arctic sea ice extent is used as an important indicator showing the effect of global warming. Taking advantage of the wide-area observation from satellites, JAXA is conducting observation of the sea ice in the entire Arctic Ocean. Every winter, drift ice arriving on the coast of the Sea of Okhotsk can be captured. [Read more](https://earth.jaxa.jp/en/data/products/sea-ice/index.html)\n\nAccess the [Global Change Observation Mission - Water (GCOM-W) Product Distribution Service](https://suzaku.eorc.jaxa.jp/GCOM_W/research/resdist.html)\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./N12_1_sea_ice_concentration_arctic/collection.json",
+      "type": "application/json",
+      "title": "Sea ice concentration GCOM-W - Arctic",
+      "endpointtype": "WMS_OverwriteTimes",
+      "code": "N12_1_sea_ice_concentration_arctic",
+      "id": "N12_1_sea_ice_concentration_arctic",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "sea ice"
+      ],
+      "satellite": [
+        "GCOM-W"
+      ],
+      "sensor": [
+        "GCOM-W"
+      ],
+      "agency": [
+        "JAXA"
+      ],
+      "subcode": "N12_1_sea_ice_concentration_arctic"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "sea ice"
+  ],
+  "satellite": [
+    "GCOM-W"
+  ],
+  "sensor": [
+    "GCOM-W"
+  ],
+  "agency": [
+    "JAXA"
+  ],
+  "subcode": "N12_1_sea_ice_concentration_arctic",
+  "title": "Sea ice concentration GCOM-W - Arctic",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -20,
+          77,
+          50,
+          83
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T15:43:03.114272Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "Global Change Observation Mission \u2013 Water SHIZUKU (GCOM-W)",
+      "description": "The purpose of this website is, first and foremost, to provide the science and broader communities with global, updated ocean productivity estimates. In addition, the website provides information on the models employed, access to model code and ancillary data sets, and comparisons of productivity estimates for alternative models. Field data sets relevant to ocean productivity modeling are also provided and will be continually expanded as new data become available. Educational material and background information on phytoplankton ecology and physiology will also be added in the future.",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://global.jaxa.jp/projects/sat/gcom_w/"
+    },
+    {
+      "name": "GCOM-W Research Product Distribution Service",
+      "description": "The GCOM-W Research Product Distribution Service provides GCOM-W/AMSR2 and Aqua/AMSR-E research products with free of charge.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://suzaku.eorc.jaxa.jp/GCOM_W/research/resdist.html"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "N12_1_sea_ice_concentration_arctic"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "GCOM-W"
+    ],
+    "sensor": [
+      "GCOM-W"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N12_sea_ice_concentration/Arctic-N12_1.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

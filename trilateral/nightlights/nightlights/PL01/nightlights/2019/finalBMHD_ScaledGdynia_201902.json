@@ -1,0 +1,185 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "finalBMHD_ScaledGdynia_201902",
+  "properties": {
+    "proj:bbox": [
+      18.357982,
+      54.422751,
+      18.569061,
+      54.584515
+    ],
+    "proj:epsg": 4326.0,
+    "proj:shape": [
+      1456.0,
+      1900.0
+    ],
+    "end_datetime": "2019-02-28T00:00:00",
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            18.357982,
+            54.422751
+          ],
+          [
+            18.569061,
+            54.422751
+          ],
+          [
+            18.569061,
+            54.584515
+          ],
+          [
+            18.357982,
+            54.584515
+          ],
+          [
+            18.357982,
+            54.422751
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00011109421052631663,
+      0.0,
+      18.357982,
+      0.0,
+      -0.00011110164835165187,
+      54.584515,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "start_datetime": "2019-02-01T00:00:00",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          18.357982,
+          54.422751
+        ],
+        [
+          18.569061,
+          54.422751
+        ],
+        [
+          18.569061,
+          54.584515
+        ],
+        [
+          18.357982,
+          54.584515
+        ],
+        [
+          18.357982,
+          54.422751
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "preview",
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/map?collection=nightlights-hd-monthly&item=finalBMHD_ScaledGdynia_201902&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "text/html",
+      "title": "Map of Item"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledGdynia_201902.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
+      "type": "image/png",
+      "title": "nightlights"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Nightlights"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Gdynia"
+      ]
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledGdynia_201902.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint16",
+          "histogram": {
+            "max": 255.0,
+            "min": 1.0,
+            "count": 11.0,
+            "buckets": [
+              31001.0,
+              29768.0,
+              28355.0,
+              25619.0,
+              23594.0,
+              19853.0,
+              15125.0,
+              13610.0,
+              8389.0,
+              7577.0
+            ]
+          },
+          "statistics": {
+            "mean": 98.50184581869082,
+            "stddev": 66.03531501476371,
+            "maximum": 255.0,
+            "minimum": 1.0,
+            "valid_percent": 25.240221934713375
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/preview.png?collection=nightlights-hd-monthly&item=finalBMHD_ScaledGdynia_201902&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "bbox": [
+    18.357982,
+    54.422751,
+    18.569061,
+    54.584515
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "nightlights"
+}

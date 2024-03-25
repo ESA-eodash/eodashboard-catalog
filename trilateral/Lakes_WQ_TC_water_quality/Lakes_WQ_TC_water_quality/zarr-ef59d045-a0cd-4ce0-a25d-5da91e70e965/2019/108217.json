@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "108217",
+  "properties": {
+    "datetime": "2019-11-11T00:00:00Z",
+    "proj:epsg": 84,
+    "proj:bbox": [
+      -180.00000000000003,
+      -90.0,
+      180.00000000000003,
+      90.0
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            -180.00000000000003,
+            -90.0
+          ],
+          [
+            -180.00000000000003,
+            90.0
+          ],
+          [
+            180.00000000000003,
+            90.0
+          ],
+          [
+            180.00000000000003,
+            -90.0
+          ],
+          [
+            -180.00000000000003,
+            -90.0
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          -180.00000000000003,
+          -90.0
+        ],
+        [
+          -180.00000000000003,
+          90.0
+        ],
+        [
+          180.00000000000003,
+          90.0
+        ],
+        [
+          180.00000000000003,
+          -90.0
+        ],
+        [
+          -180.00000000000003,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Lake water quality (true color)"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Lakes_WQ_TC_water_quality",
+      "wms:layers": [
+        "LAKE_WATE_QUALITY_TRUECOLOR"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2019-11-11T00:00:00Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Lake water quality (true color)"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -180.00000000000003,
+    -90.0,
+    180.00000000000003,
+    90.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "zarr-ef59d045-a0cd-4ce0-a25d-5da91e70e965"
+}

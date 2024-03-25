@@ -1,0 +1,55 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2019-02-01",
+  "properties": {
+    "datetime": "2019-02-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/{SH_INSTANCE_ID}",
+      "type": "image/jpeg",
+      "title": "sen4ama",
+      "wms:layers": [
+        "ID-AMAZONAS_PROJECT"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2019-02-01"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 for Science Amazonas"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Sentinel-1 for Science Amazonas"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -180,
+    -85,
+    180,
+    85
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "collection": "sen4ama"
+}

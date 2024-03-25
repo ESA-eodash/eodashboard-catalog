@@ -1,0 +1,185 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "finalBMHD_ScaledDunkirk_202012",
+  "properties": {
+    "proj:bbox": [
+      2.062055515,
+      50.88721313,
+      2.641584324,
+      51.13260412
+    ],
+    "proj:epsg": 4326.0,
+    "proj:shape": [
+      2209.0,
+      5216.0
+    ],
+    "end_datetime": "2020-12-31T00:00:00",
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            2.062055515,
+            50.88721313
+          ],
+          [
+            2.641584324,
+            50.88721313
+          ],
+          [
+            2.641584324,
+            51.13260412
+          ],
+          [
+            2.062055515,
+            51.13260412
+          ],
+          [
+            2.062055515,
+            50.88721313
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00011110598332055217,
+      0.0,
+      2.062055515,
+      0.0,
+      -0.00011108691263015129,
+      51.13260412,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "start_datetime": "2020-12-01T00:00:00",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.062055515,
+          50.88721313
+        ],
+        [
+          2.641584324,
+          50.88721313
+        ],
+        [
+          2.641584324,
+          51.13260412
+        ],
+        [
+          2.062055515,
+          51.13260412
+        ],
+        [
+          2.062055515,
+          50.88721313
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "preview",
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/map?collection=nightlights-hd-monthly&item=finalBMHD_ScaledDunkirk_202012&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "text/html",
+      "title": "Map of Item"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledDunkirk_202012.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
+      "type": "image/png",
+      "title": "nightlights"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Nightlights"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Dunkirk"
+      ]
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledDunkirk_202012.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint16",
+          "histogram": {
+            "max": 255.0,
+            "min": 1.0,
+            "count": 11.0,
+            "buckets": [
+              5785.0,
+              116085.0,
+              4542.0,
+              4179.0,
+              3768.0,
+              3315.0,
+              2854.0,
+              2707.0,
+              2150.0,
+              13738.0
+            ]
+          },
+          "statistics": {
+            "mean": 71.39957140074031,
+            "stddev": 63.38726081942422,
+            "maximum": 255.0,
+            "minimum": 1.0,
+            "valid_percent": 35.804966517857146
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/preview.png?collection=nightlights-hd-monthly&item=finalBMHD_ScaledDunkirk_202012&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "bbox": [
+    2.062055515,
+    50.88721313,
+    2.641584324,
+    51.13260412
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "nightlights"
+}

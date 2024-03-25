@@ -1,0 +1,121 @@
+{
+  "type": "Collection",
+  "id": "N11_ocean_primary_productivity",
+  "stac_version": "1.0.0",
+  "description": "## GCOM-C Ocean net primary productivity (ONPP)\n\nNet primary productivity [mgC/m2/day] is gross photosynthetic carbon fixation minus the carbon respired to support maintenance requirements of the whole plant.\n\nJAXA's GCOM-C mission aims to establish and demonstrate a global, long-term satellite-observing system to measure essential geophysical parameters to facilitate understanding the global radiation budget and carbon cycle mechanism, and eventually contribute to improving future climate projection through a collaborative framework with climate model institutions.\n\nAccess the [Global Change Observation Mission - Climate (GCOM-C) Webpage](https://suzaku.eorc.jaxa.jp/GCOM_C/index.html)\n\nRead more about the product: [https://doi.org/10.1007/s10872-005-0074-7](https://doi.org/10.1007/s10872-005-0074-7)\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./N11_ocean_primary_productivity/collection.json",
+      "type": "application/json",
+      "title": "Ocean Primary Productivity (GCOM-C)",
+      "endpointtype": "WMS_Time",
+      "subtitle": "Ocean Primary Productivity (GCOM-C)",
+      "code": "N11",
+      "id": "N11_ocean_primary_productivity",
+      "themes": [
+        "cryosphere"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "GCOM-C"
+      ],
+      "agency": [
+        "JAXA"
+      ],
+      "subcode": "N11"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "subtitle": "Ocean Primary Productivity (GCOM-C)",
+  "themes": [
+    "cryosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "GCOM-C"
+  ],
+  "agency": [
+    "JAXA"
+  ],
+  "subcode": "N11",
+  "title": "Ocean Primary Productivity (GCOM-C)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -89.99999999997118,
+          179.99999999994236,
+          90.0
+        ],
+        [
+          -180.0,
+          -89.99999999997118,
+          179.99999999994236,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-16T11:59:30Z",
+          "2024-02-15T11:59:30Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "N11"
+    ],
+    "themes": [
+      "cryosphere"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "GCOM-C"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N11_ocean_primary_productivity/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N11_ocean_primary_productivity/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "finalBMHD_ScaledGhent_202110",
+  "properties": {
+    "proj:bbox": [
+      3.542912745,
+      50.93642727,
+      3.919194484,
+      51.16950495
+    ],
+    "proj:epsg": 4326.0,
+    "proj:shape": [
+      2098.0,
+      3387.0
+    ],
+    "end_datetime": "2021-10-31T00:00:00",
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            3.542912745,
+            50.93642727
+          ],
+          [
+            3.919194484,
+            50.93642727
+          ],
+          [
+            3.919194484,
+            51.16950495
+          ],
+          [
+            3.542912745,
+            51.16950495
+          ],
+          [
+            3.542912745,
+            50.93642727
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00011109587806318273,
+      0.0,
+      3.542912745,
+      0.0,
+      -0.00011109517635843367,
+      51.16950495,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "start_datetime": "2021-10-01T00:00:00",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.542912745,
+          50.93642727
+        ],
+        [
+          3.919194484,
+          50.93642727
+        ],
+        [
+          3.919194484,
+          51.16950495
+        ],
+        [
+          3.542912745,
+          51.16950495
+        ],
+        [
+          3.542912745,
+          50.93642727
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "preview",
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/map?collection=nightlights-hd-monthly&item=finalBMHD_ScaledGhent_202110&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "text/html",
+      "title": "Map of Item"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledGhent_202110.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
+      "type": "image/png",
+      "title": "nightlights"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Nightlights"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Ghent"
+      ]
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledGhent_202110.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint16",
+          "histogram": {
+            "max": 255.0,
+            "min": 1.0,
+            "count": 11.0,
+            "buckets": [
+              18032.0,
+              13467.0,
+              11816.0,
+              9824.0,
+              9158.0,
+              8319.0,
+              7206.0,
+              5886.0,
+              2523.0,
+              2486.0
+            ]
+          },
+          "statistics": {
+            "mean": 91.15384875503004,
+            "stddev": 65.88298563025215,
+            "maximum": 255.0,
+            "minimum": 1.0,
+            "valid_percent": 13.643731545275589
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/preview.png?collection=nightlights-hd-monthly&item=finalBMHD_ScaledGhent_202110&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "bbox": [
+    3.542912745,
+    50.93642727,
+    3.919194484,
+    51.16950495
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "nightlights"
+}

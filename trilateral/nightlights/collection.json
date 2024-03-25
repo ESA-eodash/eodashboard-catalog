@@ -1,0 +1,111 @@
+{
+  "type": "Collection",
+  "id": "nightlights",
+  "stac_version": "1.0.0",
+  "description": "## Nightlights\n\nThe High Definition Nightlights dataset is processed to eliminate light sources\nlike moonlight reflectance and other interferences. The darker shades are places\nwith less light while the lighter shades of yellow are areas with more light.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./nightlights/collection.json",
+      "type": "application/json",
+      "title": "Nightlights",
+      "endpointtype": "VEDA_cog",
+      "code": "N5",
+      "id": "nightlights",
+      "themes": [
+        "atmosphere",
+        "economy"
+      ],
+      "locations": true,
+      "tags": [
+        "covid",
+        "slowdown"
+      ],
+      "satellite": [
+        "Suomi"
+      ],
+      "sensor": [
+        "VIIRS"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "subcode": "N5"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "themes": [
+    "atmosphere",
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "covid",
+    "slowdown"
+  ],
+  "satellite": [
+    "Suomi"
+  ],
+  "sensor": [
+    "VIIRS"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N5",
+  "title": "Nightlights",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -77.18,
+          -37.08,
+          174.96,
+          54.584515
+        ],
+        [
+          -77.18,
+          -37.08,
+          174.96,
+          54.584515
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-01T00:00:00Z",
+          "2022-03-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N5_nightlights/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

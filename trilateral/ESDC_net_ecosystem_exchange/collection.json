@@ -1,0 +1,120 @@
+{
+  "type": "Collection",
+  "id": "ESDC_net_ecosystem_exchange",
+  "stac_version": "1.0.0",
+  "description": "# Net Ecosystem Exchange\n\nNet carbon exchange between the ecosystem and the atmosphere\n\n## More information\n\nThe data shown is served from the [Earth System Data Lab xcube server](https://viewer.earthsystemdatalab.net/)\n\n- [Tramontana, Gianluca, et al. \"Predicting carbon dioxide and energy fluxes across global FLUXNET sites with regression algorithms.\" (2016).](https://doi.org/10.5194/bg-13-4291-2016)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./ESDC_net_ecosystem_exchange/collection.json",
+      "type": "application/json",
+      "title": "Net Ecosystem Exchange",
+      "endpointtype": "xcube_zarr",
+      "code": "ESDC_net_ecosystem_exchange",
+      "id": "ESDC_net_ecosystem_exchange",
+      "themes": [
+        "biomass"
+      ],
+      "yAxis": "g C m^-2 d^-1",
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "placeholder"
+      ],
+      "subcode": "ESDC_net_ecosystem_exchange"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "themes": [
+    "biomass"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "placeholder"
+  ],
+  "subcode": "ESDC_net_ecosystem_exchange",
+  "title": "Net Ecosystem Exchange",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1979-01-05T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "ESDC_net_ecosystem_exchange"
+    ],
+    "themes": [
+      "biomass"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ESDC_net_ecosystem_exchange/World-ESDC_net_ecosystem_exchange.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

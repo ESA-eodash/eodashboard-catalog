@@ -1,0 +1,133 @@
+{
+  "type": "Collection",
+  "id": "N9_OMI_trno2-COG",
+  "stac_version": "1.0.0",
+  "description": "## NASA OMI/Aura Nitrogen Dioxide (NO2) Total and Tropospheric Column\n\nNitrogen dioxide (NO2) is a gas that is emitted into the air from the burning of fossil fuels. NO2 is injected into the atmosphere in the emissions from cars, trucks, buses, and power plants.\n\nRead more about the product and access NASA OMI/Aura NO2 data: [https://disc.gsfc.nasa.gov/](https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./N9_OMI_trno2-COG/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide (Yearly)",
+      "endpointtype": "VEDA_cog",
+      "subtitle": "Yearly Nitrogen Dioxide (NO2) from NASA's OMI Aura 0.10 x 0.10",
+      "code": "N9",
+      "id": "N9_OMI_trno2-COG",
+      "themes": [
+        "atmosphere"
+      ],
+      "tags": [
+        "air quality",
+        "no2"
+      ],
+      "satellite": [
+        "AURA"
+      ],
+      "sensor": [
+        "OMI"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "subcode": "N9"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "subtitle": "Yearly Nitrogen Dioxide (NO2) from NASA's OMI Aura 0.10 x 0.10",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "air quality",
+    "no2"
+  ],
+  "satellite": [
+    "AURA"
+  ],
+  "sensor": [
+    "OMI"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N9",
+  "title": "Nitrogen Dioxide (Yearly)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "VEDA",
+      "description": "NASA's Visualization, Exploration, and Data Analysis (VEDA) project is an open-source science cyberinfrastructure for data processing, visualization, exploration, and geographic information systems (GIS) capabilities.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.earthdata.nasa.gov/esds/veda"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "N9"
+    ],
+    "themes": [
+      "atmosphere"
+    ],
+    "satellite": [
+      "AURA"
+    ],
+    "sensor": [
+      "OMI"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

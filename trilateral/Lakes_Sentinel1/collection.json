@@ -1,0 +1,110 @@
+{
+  "type": "Collection",
+  "id": "Lakes_Sentinel1",
+  "stac_version": "1.0.0",
+  "description": "## Sentinel 1 for Lake areas\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./Lakes_Sentinel1/collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (Sentinel 1)",
+      "endpointtype": "Sentinel Hub WMS",
+      "code": "Lakes_Sentinel1",
+      "id": "Lakes_Sentinel1",
+      "themes": [
+        "water"
+      ],
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Sentinel 2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "Lakes_Sentinel1"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "themes": [
+    "water"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel 2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Lakes_Sentinel1",
+  "title": "Lakes collection (Sentinel 1)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          101.938,
+          11.945,
+          106.37,
+          14.0674
+        ],
+        [
+          101.938,
+          11.945,
+          106.37,
+          14.0674
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-05-15T00:00:00Z",
+          "2022-10-17T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_Sentinel1/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

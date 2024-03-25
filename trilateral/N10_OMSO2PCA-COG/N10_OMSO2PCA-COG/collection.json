@@ -1,0 +1,220 @@
+{
+  "type": "Collection",
+  "id": "N10_OMSO2PCA-COG",
+  "stac_version": "1.0.0",
+  "description": "## NASA OMI/Aura Sulfur Dioxide (SO2) Total Column\n\nReference: \n\nCan Li, Nickolay A. Krotkov, and Peter Leonard (2020), OMI/Aura Sulfur Dioxide (SO2) Total Column L3 1 day Best Pixel in 0.25 degree x 0.25 degree V3, Greenbelt, MD, USA, Goddard Earth Sciences Data and Information Services Center (GES DISC), Accessed: [2022-05-03], 10.5067/Aura/OMI/DATA3008\n\nVisit [https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/](https://disc.gsfc.nasa.gov/datasets/OMSO2e_003/summary) to access this dataset and get more information.\n\n\n[SO2 Monitoring Home Page](https://so2.gsfc.nasa.gov/)\n\n[Aura Project Home Page](https://aura.gsfc.nasa.gov/)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2021/OMSO2PCA_LUT_SCD_2021.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2021.tif",
+      "start_datetime": "2021-01-01T00:00:00",
+      "end_datetime": "2021-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2020/OMSO2PCA_LUT_SCD_2020.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2020.tif",
+      "start_datetime": "2020-01-01T00:00:00",
+      "end_datetime": "2020-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2019/OMSO2PCA_LUT_SCD_2019.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2019.tif",
+      "start_datetime": "2019-01-01T00:00:00",
+      "end_datetime": "2019-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2018/OMSO2PCA_LUT_SCD_2018.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2018.tif",
+      "start_datetime": "2018-01-01T00:00:00",
+      "end_datetime": "2018-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2017/OMSO2PCA_LUT_SCD_2017.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2017.tif",
+      "start_datetime": "2017-01-01T00:00:00",
+      "end_datetime": "2017-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2016/OMSO2PCA_LUT_SCD_2016.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2016.tif",
+      "start_datetime": "2016-01-01T00:00:00",
+      "end_datetime": "2016-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2015/OMSO2PCA_LUT_SCD_2015.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2015.tif",
+      "start_datetime": "2015-01-01T00:00:00",
+      "end_datetime": "2015-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2014/OMSO2PCA_LUT_SCD_2014.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2014.tif",
+      "start_datetime": "2014-01-01T00:00:00",
+      "end_datetime": "2014-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2013/OMSO2PCA_LUT_SCD_2013.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2013.tif",
+      "start_datetime": "2013-01-01T00:00:00",
+      "end_datetime": "2013-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2012/OMSO2PCA_LUT_SCD_2012.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2012.tif",
+      "start_datetime": "2012-01-01T00:00:00",
+      "end_datetime": "2012-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2011/OMSO2PCA_LUT_SCD_2011.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2011.tif",
+      "start_datetime": "2011-01-01T00:00:00",
+      "end_datetime": "2011-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2010/OMSO2PCA_LUT_SCD_2010.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2010.tif",
+      "start_datetime": "2010-01-01T00:00:00",
+      "end_datetime": "2010-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2009/OMSO2PCA_LUT_SCD_2009.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2009.tif",
+      "start_datetime": "2009-01-01T00:00:00",
+      "end_datetime": "2009-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2008/OMSO2PCA_LUT_SCD_2008.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2008.tif",
+      "start_datetime": "2008-01-01T00:00:00",
+      "end_datetime": "2008-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2007/OMSO2PCA_LUT_SCD_2007.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2007.tif",
+      "start_datetime": "2007-01-01T00:00:00",
+      "end_datetime": "2007-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2006/OMSO2PCA_LUT_SCD_2006.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2006.tif",
+      "start_datetime": "2006-01-01T00:00:00",
+      "end_datetime": "2006-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMSO2PCA-COG/2005/OMSO2PCA_LUT_SCD_2005.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMSO2PCA-COG/OMSO2PCA_LUT_SCD_2005.tif",
+      "start_datetime": "2005-01-01T00:00:00",
+      "end_datetime": "2005-12-31T00:00:00"
+    },
+    {
+      "rel": "example",
+      "href": "https://staging-raster.delta-backend.com/cog/statistics",
+      "type": "application/json",
+      "title": "VEDA Statistics",
+      "example:language": "JSON"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sulfur Dioxide (OMI/Aura)"
+    }
+  ],
+  "subtitle": "Sulfur Dioxide (OMI/Aura)",
+  "yAxis": "DU",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Aura"
+  ],
+  "sensor": [
+    "OMI"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N10",
+  "endpointtype": "VEDA_cog",
+  "title": "Sulfur Dioxide (OMI/Aura)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2021-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N10_OMSO2PCA-COG/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N10_OMSO2PCA-COG/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

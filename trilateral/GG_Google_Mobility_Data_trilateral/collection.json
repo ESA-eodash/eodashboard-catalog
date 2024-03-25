@@ -1,0 +1,239 @@
+{
+  "type": "Collection",
+  "id": "GG_Google_Mobility_Data_trilateral",
+  "stac_version": "1.0.0",
+  "description": "### COVID-19 Community Mobility Reports \n\nThis dataset is provided by Google LLC \"Google COVID-19 Community Mobility Reports\".\n\nSource: [https://www.google.com/covid19/mobility/](https://www.google.com/covid19/mobility/) Accessed: 2021-04-01. Updated: daily\n\nEach datasets shows the daily variation of visits and length of stay at different places compared to a baseline value - \"the median value, for the corresponding day of the week, during the 5-week period Jan 3\u2013Feb 6, 2020\". Google makes the data available for download as CSV and presents the data as pdfs, one for each country (and art sub-national level for a number of countries). \n\nHere the data is presented as interactive charts to make it easier to inspect changes at country levels, browse through time, and to relate the information with the local measures taken by the authorities.\n\nThe data covers 6 place categories:\n\n- **Grocery & pharmacy** = Mobility trends for places like grocery markets, food warehouses, farmers markets, specialty food shops, drug stores, and pharmacies.\n\n- **Parks** = Mobility trends for places like local parks, national parks, public beaches, marinas, dog parks, plazas, and public gardens.\n\n- **Transit stations** = Mobility trends for places like public transport hubs such as subway, bus, and train stations.\n\n- **Retail & recreation** = Mobility trends for places like restaurants, cafes, shopping centers, theme parks, museums, libraries, and movie theaters.\n\n- **Residential** = Mobility trends for places of residence.\n\n- **Workplaces** = Mobility trends for places of work.\n\n\nGoogle indicates this data should not be used for medical diagnostic, prognostic, or treatment purposes, nor is it intended to be used for guidance on personal travel plans. The company advises users to take caution in interpreting the data, due to the large diferences in location accuracy and local characteristics that may arise from country to country. Insights are calculated based on data from users who have opted-in to Location History for their Google Account, so the data represents a sample of our users, and may or may not represent the exact behavior of a wider population. \n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./Mobility_data/collection.json",
+      "type": "application/json",
+      "title": "Mobility",
+      "endpointtype": "GeoDB",
+      "subtitle": "Mobility data from Google",
+      "code": "GG",
+      "id": "GG_Google_Mobility_Data_trilateral",
+      "themes": [
+        "economy"
+      ],
+      "cities": [
+        "/"
+      ],
+      "countries": [
+        "United Arab Emirates",
+        "Afghanistan",
+        "Angola",
+        "Argentina",
+        "Austria",
+        "Australia",
+        "Bosnia and Herzegovina",
+        "Bangladesh",
+        "Belgium",
+        "Burkina Faso",
+        "Bulgaria",
+        "Benin",
+        "Bolivia",
+        "Brazil",
+        "Bahamas",
+        "Botswana",
+        "Belarus",
+        "Belize",
+        "Canada",
+        "Switzerland",
+        "Ivory Coast",
+        "Chile",
+        "Cameroon",
+        "Colombia",
+        "Costa Rica",
+        "Czech Republic",
+        "Germany",
+        "Denmark",
+        "Dominican Republic",
+        "Ecuador",
+        "Estonia",
+        "Egypt",
+        "Spain",
+        "Finland",
+        "Fiji",
+        "France",
+        "Gabon",
+        "United Kingdom",
+        "Georgia",
+        "Ghana",
+        "Greece",
+        "Guatemala",
+        "Guinea-Bissau",
+        "Honduras",
+        "Croatia",
+        "Haiti",
+        "Hungary",
+        "Indonesia",
+        "Ireland",
+        "Israel",
+        "India",
+        "Iraq",
+        "Italy",
+        "Jamaica",
+        "Jordan",
+        "Japan",
+        "Kenya",
+        "Kyrgyzstan",
+        "Cambodia",
+        "Korea South",
+        "Kuwait",
+        "Kazakhstan",
+        "Laos",
+        "Lebanon",
+        "Sri Lanka",
+        "Lithuania",
+        "Luxembourg",
+        "Latvia",
+        "Libya",
+        "Morocco",
+        "Moldova",
+        "Macedonia",
+        "Mali",
+        "Myanmar",
+        "Mongolia",
+        "Malta",
+        "Mexico",
+        "Malaysia",
+        "Mozambique",
+        "Niger",
+        "Nigeria",
+        "Nicaragua",
+        "Netherlands",
+        "Norway",
+        "Nepal",
+        "New Zealand",
+        "Oman",
+        "Panama",
+        "Peru",
+        "Papua New Guinea",
+        "Philippines",
+        "Pakistan",
+        "Poland",
+        "Puerto Rico",
+        "Portugal",
+        "Paraguay",
+        "Qatar",
+        "Romania",
+        "Serbia",
+        "Russia",
+        "Rwanda",
+        "Saudi Arabia",
+        "Sweden",
+        "Singapore",
+        "Slovenia",
+        "Slovakia",
+        "Senegal",
+        "El Salvador",
+        "Togo",
+        "Thailand",
+        "Tajikistan",
+        "Turkey",
+        "Trinidad and Tobago",
+        "Taiwan",
+        "Tanzania",
+        "Ukraine",
+        "Uganda",
+        "United States",
+        "Uruguay",
+        "Venezuela",
+        "Vietnam",
+        "Yemen",
+        "South Africa",
+        "Zambia",
+        "Zimbabwe"
+      ],
+      "yAxis": "/",
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "GG"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "subtitle": "Mobility data from Google",
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "GG",
+  "title": "Mobility",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -99.143,
+          -41.309999999999995,
+          178.427,
+          60.177
+        ],
+        [
+          -99.143,
+          -41.309999999999995,
+          178.427,
+          60.177
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-02-15T00:00:00Z",
+          "2022-10-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "GG"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ],
+    "cities": [
+      "/"
+    ]
+  }
+}

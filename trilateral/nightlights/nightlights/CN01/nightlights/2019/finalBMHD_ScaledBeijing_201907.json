@@ -1,0 +1,185 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "finalBMHD_ScaledBeijing_201907",
+  "properties": {
+    "proj:bbox": [
+      116.2,
+      39.77,
+      116.55,
+      40.0
+    ],
+    "proj:epsg": 4326.0,
+    "proj:shape": [
+      2070.0,
+      3150.0
+    ],
+    "end_datetime": "2019-07-31T00:00:00",
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            116.2,
+            39.77
+          ],
+          [
+            116.55,
+            39.77
+          ],
+          [
+            116.55,
+            40.0
+          ],
+          [
+            116.2,
+            40.0
+          ],
+          [
+            116.2,
+            39.77
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00011111111111110931,
+      0.0,
+      116.2,
+      0.0,
+      -0.00011111111111110961,
+      40.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "start_datetime": "2019-07-01T00:00:00",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          116.2,
+          39.77
+        ],
+        [
+          116.55,
+          39.77
+        ],
+        [
+          116.55,
+          40
+        ],
+        [
+          116.2,
+          40
+        ],
+        [
+          116.2,
+          39.77
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "preview",
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/map?collection=nightlights-hd-monthly&item=finalBMHD_ScaledBeijing_201907&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "text/html",
+      "title": "Map of Item"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledBeijing_201907.tif&resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255",
+      "type": "image/png",
+      "title": "nightlights"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Nightlights"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Beijing"
+      ]
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/nightlights-hd-monthly/finalBMHD_ScaledBeijing_201907.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 0.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint16",
+          "histogram": {
+            "max": 255.0,
+            "min": 1.0,
+            "count": 11.0,
+            "buckets": [
+              35412.0,
+              46905.0,
+              67652.0,
+              89039.0,
+              104957.0,
+              105166.0,
+              76642.0,
+              48724.0,
+              22688.0,
+              24989.0
+            ]
+          },
+          "statistics": {
+            "mean": 120.01433039632,
+            "stddev": 57.674139257653636,
+            "maximum": 255.0,
+            "minimum": 1.0,
+            "valid_percent": 90.28109908989599
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/preview.png?collection=nightlights-hd-monthly&item=finalBMHD_ScaledBeijing_201907&bidx=1&assets=cog_default&rescale=0%2C255&colormap_name=inferno",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "bbox": [
+    116.2,
+    39.77,
+    116.55,
+    40.0
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "nightlights"
+}

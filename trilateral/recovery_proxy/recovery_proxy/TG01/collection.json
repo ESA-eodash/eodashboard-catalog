@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "id": "TG01",
+  "stac_version": "1.0.0",
+  "description": "Togo",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./recovery_proxy/2020/togo_RPM_2020-01-01_to_2020-12-31_day.cog.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/recovery-proxy-maps-covid-19/togo_RPM_2020-01-01_to_2020-12-31_day.cog.tif",
+      "start_datetime": "2020-01-01T00:00:00+00:00",
+      "end_datetime": "2020-12-31T23:59:59+00:00"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Recovery proxy Covid-19"
+    }
+  ],
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "covid",
+    "recovery"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N8",
+  "title": [
+    "Togo"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -0.876020861,
+          5.686939596845617,
+          2.56425691673783,
+          11.529161819
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2020-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N8_recovery_proxy/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N8_recovery_proxy/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

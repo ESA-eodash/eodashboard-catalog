@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "id": "US04",
+  "stac_version": "1.0.0",
+  "description": "New York",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./slowdown_proxy/2020/newyork_SPM_2020-01-01_to_2020-12-31_day.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/slowdown-proxy-covid-19-changing-landscapes/newyork_SPM_2020-01-01_to_2020-12-31_day.tif",
+      "start_datetime": "2020-01-01T00:00:00+00:00",
+      "end_datetime": "2020-12-31T23:59:59+00:00"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Slowdown proxy Covid-19"
+    }
+  ],
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "covid",
+    "slowdown"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N7",
+  "title": [
+    "New York"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -75.35177368,
+          40.27566399653131,
+          -72.14482923583465,
+          41.273719552
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2020-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N7_slowdown_proxy/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N7_slowdown_proxy/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

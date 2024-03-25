@@ -1,0 +1,61 @@
+{
+  "type": "Collection",
+  "id": "Lakes_Sentinel1",
+  "stac_version": "1.0.0",
+  "description": "## Sentinel 1 for Lake areas\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./TonleSap_VV/collection.json",
+      "type": "application/json",
+      "title": "Tonl\u00e9 Sap (S1-VV)",
+      "id": "TonleSap_VV",
+      "latlng": "12.7,104.2",
+      "country": [
+        "KH"
+      ],
+      "city": "Tonl\u00e9 Sap (S1-VV)"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (Sentinel 1)"
+    }
+  ],
+  "endpointtype": "Sentinel Hub WMS",
+  "title": "Lakes collection (Sentinel 1)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          101.938,
+          11.945,
+          106.37,
+          14.0674
+        ],
+        [
+          101.938,
+          11.945,
+          106.37,
+          14.0674
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-05-15T00:00:00Z",
+          "2022-10-17T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

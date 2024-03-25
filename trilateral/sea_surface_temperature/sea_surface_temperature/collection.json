@@ -1,0 +1,119 @@
+{
+  "type": "Collection",
+  "id": "sea_surface_temperature",
+  "stac_version": "1.0.0",
+  "description": "## Water Quality Regional Maps\n\nChlorophyll-a (Chl-a) concentration is an indicator of algae abundance which fluctuates naturally over space and time, as a result of combined atmospheric and oceanic effects (e.g., marine currents and upwelling). In coastal areas, strongly influenced by river inputs and human activities, high Chl concentration can result from the discharge of urban sewage, industrial runoffs, and fertilizers from agriculture activities over watersheds. In particular, nutrient inputs of anthropogenic origin affect the natural amount of phytoplankton in marine and inland waters, representing a continuous threat to biodiversity and leading to undesirable modifications of phytoplankton concentration (i.e., eutrophication).\n\nTotal Suspended Matter (TSM) i.e, the concentration of organic and inorganic materials suspended in the water, is another proxy for water quality as different contaminants, including nutrients, trace metals, semi-volatile organic compounds, and numerous pesticides, can aggregate to these solids and brought in suspension. This can alter the state of the aquatic ecosystem and the use of freshwater resources. For instance, excessive suspended material might condition primary productivity. TSM concentration can be very high near the coasts due to the resuspension of terrestrial or submarine particulate matter by tides, waves, and currents.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./NorthAdriaticSST/collection.json",
+      "type": "application/json",
+      "title": [
+        "North Adriatic"
+      ],
+      "id": "NorthAdriaticSST",
+      "latlng": "45.19752,13.02978",
+      "name": "North Adriatic"
+    },
+    {
+      "rel": "child",
+      "href": "./RhoneDeltaSST/collection.json",
+      "type": "application/json",
+      "title": [
+        "Rhone Delta"
+      ],
+      "id": "RhoneDeltaSST",
+      "latlng": "43.4,4.94",
+      "name": "Rhone Delta"
+    },
+    {
+      "rel": "child",
+      "href": "./BarcelonaSST/collection.json",
+      "type": "application/json",
+      "title": [
+        "Barcelona"
+      ],
+      "id": "BarcelonaSST",
+      "latlng": "40.985,1.769",
+      "name": "Barcelona"
+    },
+    {
+      "rel": "child",
+      "href": "./DanubeDeltaSST/collection.json",
+      "type": "application/json",
+      "title": [
+        "Danube Delta"
+      ],
+      "id": "DanubeDeltaSST",
+      "latlng": "45.05,29.9",
+      "name": "Danube Delta"
+    },
+    {
+      "rel": "example",
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_sea_surface_temperature/script.js",
+      "type": "application/javascript",
+      "title": "evalscript",
+      "example:language": "JavaScript",
+      "dataId": "byoc-92780d01-126f-4827-80f8-4e561dd8e228"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sea surface temperature maps"
+    }
+  ],
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Sea surface temperature maps",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          0.4958158806278117,
+          40.49169459203297,
+          30.604209899902344,
+          45.80441474914551
+        ],
+        [
+          11.995806217193604,
+          44.495954513549805,
+          13.82429552078247,
+          45.80441474914551
+        ],
+        [
+          4.195806264877319,
+          42.99946069717407,
+          5.504192113876343,
+          43.49429893493652
+        ],
+        [
+          0.4958158806278117,
+          40.49169459203297,
+          2.504193179278194,
+          41.50425148010254
+        ],
+        [
+          28.995811462402344,
+          44.39800262451172,
+          30.604209899902344,
+          45.60430145263672
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-05T00:00:00Z",
+          "2024-03-02T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

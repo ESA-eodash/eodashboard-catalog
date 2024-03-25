@@ -1,0 +1,94 @@
+{
+  "type": "Collection",
+  "id": "BE03",
+  "stac_version": "1.0.0",
+  "description": "Port of Ghent",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./slowdown_proxy/2020/ghent_SPM_2020-01-01_to_2020-12-31_day.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/slowdown-proxy-covid-19-changing-landscapes/ghent_SPM_2020-01-01_to_2020-12-31_day.tif",
+      "start_datetime": "2020-01-01T00:00:00+00:00",
+      "end_datetime": "2020-12-31T23:59:59+00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./slowdown_proxy/2020/dunkirk_SPM_2020-01-01_to_2020-12-31_day.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/slowdown-proxy-covid-19-changing-landscapes/dunkirk_SPM_2020-01-01_to_2020-12-31_day.tif",
+      "start_datetime": "2020-01-01T00:00:00+00:00",
+      "end_datetime": "2020-12-31T23:59:59+00:00"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Slowdown proxy Covid-19"
+    }
+  ],
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "covid",
+    "slowdown"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N7",
+  "title": [
+    "Port of Ghent"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          1.973152455,
+          50.729008826866135,
+          4.676784191065174,
+          51.424290027
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2020-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N7_slowdown_proxy/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N7_slowdown_proxy/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

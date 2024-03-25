@@ -1,0 +1,119 @@
+{
+  "type": "Collection",
+  "id": "facebook_population_density",
+  "stac_version": "1.0.0",
+  "description": "## High-resolution population density maps\n\nThis data is provided by Meta ([https://dataforgood.fb.com](https://dataforgood.facebook.com/dfg/about))\n\nThe high-resolution maps estimate the number of people living within 30-meter grid tiles in nearly every country around the world.\n\nDarker areas indicate higher population density areas and lighter areas indicate lower population density areas.\n\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/FB-Fig1.png)\n\n\nRead more about the methodology employed to create these maps on the [Data for Good Website](https://dataforgood.fb.com/docs/methodology-high-resolution-population-density-maps-demographic-estimates/)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./facebook_population_density/collection.json",
+      "type": "application/json",
+      "title": "Population Density (Meta)",
+      "endpointtype": "VEDA_cog",
+      "code": "FB",
+      "id": "facebook_population_density",
+      "themes": [
+        "economy"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "subcode": "FB"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "themes": [
+    "economy"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "FB",
+  "title": "Population Density (Meta)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.00041666666667,
+          -55.985972222324634,
+          179.82041666695605,
+          71.33069444444443
+        ],
+        [
+          -180.00041666666667,
+          -55.985972222324634,
+          179.82041666695605,
+          71.33069444444443
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-01-01T00:00:00Z",
+          "2015-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "FB"
+    ],
+    "themes": [
+      "economy"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/facebook_population_density/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

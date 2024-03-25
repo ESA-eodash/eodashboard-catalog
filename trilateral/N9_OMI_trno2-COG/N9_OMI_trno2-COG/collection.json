@@ -1,0 +1,238 @@
+{
+  "type": "Collection",
+  "id": "N9_OMI_trno2-COG",
+  "stac_version": "1.0.0",
+  "description": "## NASA OMI/Aura Nitrogen Dioxide (NO2) Total and Tropospheric Column\n\nNitrogen dioxide (NO2) is a gas that is emitted into the air from the burning of fossil fuels. NO2 is injected into the atmosphere in the emissions from cars, trucks, buses, and power plants.\n\nRead more about the product and access NASA OMI/Aura NO2 data: [https://disc.gsfc.nasa.gov/](https://disc.gsfc.nasa.gov/datasets/OMNO2d_003/summary)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2022/OMI_trno2_0.10x0.10_2022_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2022_Col3_V4.tif",
+      "start_datetime": "2022-01-01T00:00:00",
+      "end_datetime": "2022-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2021/OMI_trno2_0.10x0.10_2021_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2021_Col3_V4.tif",
+      "start_datetime": "2021-01-01T00:00:00",
+      "end_datetime": "2021-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2020/OMI_trno2_0.10x0.10_2020_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2020_Col3_V4.tif",
+      "start_datetime": "2020-01-01T00:00:00",
+      "end_datetime": "2020-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2019/OMI_trno2_0.10x0.10_2019_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2019_Col3_V4.tif",
+      "start_datetime": "2019-01-01T00:00:00",
+      "end_datetime": "2019-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2018/OMI_trno2_0.10x0.10_2018_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2018_Col3_V4.tif",
+      "start_datetime": "2018-01-01T00:00:00",
+      "end_datetime": "2018-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2017/OMI_trno2_0.10x0.10_2017_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2017_Col3_V4.tif",
+      "start_datetime": "2017-01-01T00:00:00",
+      "end_datetime": "2017-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2016/OMI_trno2_0.10x0.10_2016_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2016_Col3_V4.tif",
+      "start_datetime": "2016-01-01T00:00:00",
+      "end_datetime": "2016-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2015/OMI_trno2_0.10x0.10_2015_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2015_Col3_V4.tif",
+      "start_datetime": "2015-01-01T00:00:00",
+      "end_datetime": "2015-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2014/OMI_trno2_0.10x0.10_2014_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2014_Col3_V4.tif",
+      "start_datetime": "2014-01-01T00:00:00",
+      "end_datetime": "2014-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2013/OMI_trno2_0.10x0.10_2013_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2013_Col3_V4.tif",
+      "start_datetime": "2013-01-01T00:00:00",
+      "end_datetime": "2013-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2012/OMI_trno2_0.10x0.10_2012_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2012_Col3_V4.tif",
+      "start_datetime": "2012-01-01T00:00:00",
+      "end_datetime": "2012-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2011/OMI_trno2_0.10x0.10_2011_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2011_Col3_V4.tif",
+      "start_datetime": "2011-01-01T00:00:00",
+      "end_datetime": "2011-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2010/OMI_trno2_0.10x0.10_2010_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2010_Col3_V4.tif",
+      "start_datetime": "2010-01-01T00:00:00",
+      "end_datetime": "2010-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2009/OMI_trno2_0.10x0.10_2009_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2009_Col3_V4.tif",
+      "start_datetime": "2009-01-01T00:00:00",
+      "end_datetime": "2009-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2008/OMI_trno2_0.10x0.10_2008_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2008_Col3_V4.tif",
+      "start_datetime": "2008-01-01T00:00:00",
+      "end_datetime": "2008-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2007/OMI_trno2_0.10x0.10_2007_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2007_Col3_V4.tif",
+      "start_datetime": "2007-01-01T00:00:00",
+      "end_datetime": "2007-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2006/OMI_trno2_0.10x0.10_2006_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2006_Col3_V4.tif",
+      "start_datetime": "2006-01-01T00:00:00",
+      "end_datetime": "2006-12-31T00:00:00"
+    },
+    {
+      "rel": "item",
+      "href": "./OMI_trno2-COG/2005/OMI_trno2_0.10x0.10_2005_Col3_V4.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/OMI_trno2-COG/OMI_trno2_0.10x0.10_2005_Col3_V4.tif",
+      "start_datetime": "2005-01-01T00:00:00",
+      "end_datetime": "2005-12-31T00:00:00"
+    },
+    {
+      "rel": "example",
+      "href": "https://staging-raster.delta-backend.com/cog/statistics",
+      "type": "application/json",
+      "title": "VEDA Statistics",
+      "example:language": "JSON"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide (Yearly)"
+    }
+  ],
+  "subtitle": "Yearly Nitrogen Dioxide (NO2) from NASA's OMI Aura 0.10 x 0.10",
+  "themes": [
+    "atmosphere"
+  ],
+  "tags": [
+    "air quality",
+    "no2"
+  ],
+  "satellite": [
+    "AURA"
+  ],
+  "sensor": [
+    "OMI"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N9",
+  "endpointtype": "VEDA_cog",
+  "title": "Nitrogen Dioxide (Yearly)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2005-01-01T00:00:00Z",
+          "2022-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "VEDA",
+      "description": "NASA's Visualization, Exploration, and Data Analysis (VEDA) project is an open-source science cyberinfrastructure for data processing, visualization, exploration, and geographic information systems (GIS) capabilities.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.earthdata.nasa.gov/esds/veda"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N9_OMI_trno2-COG/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

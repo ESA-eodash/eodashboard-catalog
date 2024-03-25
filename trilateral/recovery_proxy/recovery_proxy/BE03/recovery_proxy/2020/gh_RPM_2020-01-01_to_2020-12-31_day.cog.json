@@ -1,0 +1,259 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "gh_RPM_2020-01-01_to_2020-12-31_day.cog",
+  "properties": {
+    "proj:bbox": [
+      3.200395303,
+      50.76456780514585,
+      4.676784191065174,
+      51.424290027
+    ],
+    "proj:epsg": 4326.0,
+    "proj:shape": [
+      2375.0,
+      5315.0
+    ],
+    "end_datetime": "2020-12-31T23:59:59+00:00",
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            3.200395303,
+            50.76456780514585
+          ],
+          [
+            4.676784191065174,
+            50.76456780514585
+          ],
+          [
+            4.676784191065174,
+            51.424290027
+          ],
+          [
+            3.200395303,
+            51.424290027
+          ],
+          [
+            3.200395303,
+            50.76456780514585
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.00027777777762279856,
+      0.0,
+      3.200395303,
+      0.0,
+      -0.00027777777762279856,
+      51.424290027,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "start_datetime": "2020-01-01T00:00:00+00:00",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.200395303,
+          50.76456780514585
+        ],
+        [
+          4.676784191065174,
+          50.76456780514585
+        ],
+        [
+          4.676784191065174,
+          51.424290027
+        ],
+        [
+          3.200395303,
+          51.424290027
+        ],
+        [
+          3.200395303,
+          50.76456780514585
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/recovery-proxy-maps-covid-19/gh_RPM_2020-01-01_to_2020-12-31_day.cog.tif&resampling_method=nearest&bidx=1&bidx=2&bidx=3",
+      "type": "image/png",
+      "title": "recovery_proxy"
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Recovery proxy Covid-19"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": [
+        "Port of Ghent"
+      ]
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/recovery-proxy-maps-covid-19/gh_RPM_2020-01-01_to_2020-12-31_day.cog.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint8",
+          "histogram": {
+            "max": 255.0,
+            "min": 0.0,
+            "count": 11.0,
+            "buckets": [
+              22.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              4311.0
+            ]
+          },
+          "statistics": {
+            "mean": 253.70528502192477,
+            "stddev": 18.123907761151646,
+            "maximum": 255.0,
+            "minimum": 0.0,
+            "valid_percent": 0.923896356441048
+          }
+        },
+        {
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint8",
+          "histogram": {
+            "max": 193.0,
+            "min": 0.0,
+            "count": 11.0,
+            "buckets": [
+              22.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              26.0,
+              177.0,
+              527.0,
+              1245.0,
+              2336.0
+            ]
+          },
+          "statistics": {
+            "mean": 170.57465958919917,
+            "stddev": 21.216081373439938,
+            "maximum": 193.0,
+            "minimum": 0.0,
+            "valid_percent": 0.923896356441048
+          }
+        },
+        {
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint8",
+          "histogram": {
+            "max": 0.5,
+            "min": -0.5,
+            "count": 11.0,
+            "buckets": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              4333.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "statistics": {
+            "mean": 0.0,
+            "stddev": 0.0,
+            "maximum": 0.0,
+            "minimum": 0.0,
+            "valid_percent": 0.923896356441048
+          }
+        },
+        {
+          "scale": 1.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "uint8",
+          "histogram": {
+            "max": 255.0,
+            "min": 0.0,
+            "count": 11.0,
+            "buckets": [
+              22.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              4311.0
+            ]
+          },
+          "statistics": {
+            "mean": 253.70528502192477,
+            "stddev": 18.123907761151646,
+            "maximum": 255.0,
+            "minimum": 0.0,
+            "valid_percent": 0.923896356441048
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    }
+  },
+  "bbox": [
+    3.200395303,
+    50.76456780514585,
+    4.676784191065174,
+    51.424290027
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "recovery_proxy"
+}

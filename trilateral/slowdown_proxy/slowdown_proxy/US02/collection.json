@@ -1,0 +1,86 @@
+{
+  "type": "Collection",
+  "id": "US02",
+  "stac_version": "1.0.0",
+  "description": "Los Angeles",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./slowdown_proxy/2020/losangeles_SPM_2020-01-01_to_2020-12-31_day.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store-staging/slowdown-proxy-covid-19-changing-landscapes/losangeles_SPM_2020-01-01_to_2020-12-31_day.tif",
+      "start_datetime": "2020-01-01T00:00:00+00:00",
+      "end_datetime": "2020-12-31T23:59:59+00:00"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Slowdown proxy Covid-19"
+    }
+  ],
+  "themes": [
+    "economy"
+  ],
+  "locations": true,
+  "tags": [
+    "covid",
+    "slowdown"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N7",
+  "title": [
+    "Los Angeles"
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -118.524326878,
+          33.71194722889829,
+          -117.71599354508362,
+          34.376391673
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2020-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N7_slowdown_proxy/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N7_slowdown_proxy/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

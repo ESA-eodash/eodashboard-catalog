@@ -1,0 +1,122 @@
+{
+  "type": "Collection",
+  "id": "soil_moisture_timeseries",
+  "stac_version": "1.0.0",
+  "description": "# Soil Moisture Content\n\n[JAXA](https://global.jaxa.jp/)(Japan Aerospace Exploration Agency) together with Japanese Ministry of Agriculture, Forestry and Fisheries (MAFF) provide bi-monthly agrometeorological information for Asia on [JASMIN](https://suzaku.eorc.jaxa.jp/JASMIN/index.html) and on [JASMAI](https://jasmai.maff.go.jp/) for selected world areas.\n\nThis agrometeorological information is obtained from satellite observations (e.g. SHIZUKU (GCOM-W), MODIS, Multiple Satellites (GSMaP)) and GPM Core Observatory, and includes precipitation, drought index, soil moisture, solar radiation, surface temperature, vegetation index and anomaly, rainfall, and other relevant agriculture and land products. \n\nThe soil water content calculated from satellite data is the volumetric water content (volume ratio of water contained in soil per unit volume). It corresponds to the soil moisture near the ground surface at a depth of several centimeters from the surface.\n\n## Access datasets\n\nVisit the JASMAI website for more details about the calculation methods and to access additional data: https://jasmai.maff.go.jp/user_guide/#item_2_7 \n\n### References\n\n* Soil Water Content: Ministry of Agriculture, Forestry and Fisheries \"Agricultural Meteorological Information Satellite Monitoring System\"\n(Created by processing JAXA's \"AMSR2/AMSR-E Soil Moisture Product\")\n* JAXA Earth Observation Research Center (EORC)\thttp://www.eorc.jaxa.jp\n* JAXA \"Earth observation satellite data provision system (G-Portal)\"\thttps://gportal.jaxa.jp/gpr/?lang=en\n* JAXA \"AMSR/AMSR-E\"\thttps://sharaku.eorc.jaxa.jp/AMSR/index_j.html\n* JAXA \"GCOM-W\"\thttps://suzaku.eorc.jaxa.jp/GCOM_W/index_j.html\n* JAXA \"Satellite Global Precipitation Map (GSMaP)\"\thttps://sharaku.eorc.jaxa.jp/GSMaP/index_j.htm\n* JAXA \"Climate Formation Physical Quantity Dataset (JASMES)\"\thttps://kuroshio.eorc.jaxa.jp/JASMES/index_j.html\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./SMCTS_Soil_Moisture_Timeseries/collection.json",
+      "type": "application/json",
+      "title": "Soil moisture",
+      "endpointtype": "GeoDB",
+      "subtitle": "Soil moisture",
+      "code": "SMCTS",
+      "id": "soil_moisture_timeseries",
+      "themes": [
+        "agriculture"
+      ],
+      "cities": [
+        "Paran\u00e1",
+        "Kansas"
+      ],
+      "countries": [
+        "BR",
+        "US"
+      ],
+      "yAxis": "Soil Moisture Contains[%]",
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "JASMAI"
+      ],
+      "sensor": [
+        "GCOM"
+      ],
+      "agency": [
+        "JAXA"
+      ],
+      "subcode": "SMCTS"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "subtitle": "Soil moisture",
+  "themes": [
+    "agriculture"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "JASMAI"
+  ],
+  "sensor": [
+    "GCOM"
+  ],
+  "agency": [
+    "JAXA"
+  ],
+  "subcode": "SMCTS",
+  "title": "Soil moisture",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -98.33500000000001,
+          -24.625,
+          -51.305,
+          38.51
+        ],
+        [
+          -98.33500000000001,
+          -24.625,
+          -51.305,
+          38.51
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-09T00:00:00Z",
+          "2023-06-24T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "summaries": {
+    "subcode": [
+      "SMCTS"
+    ],
+    "themes": [
+      "agriculture"
+    ],
+    "satellite": [
+      "JASMAI"
+    ],
+    "sensor": [
+      "GCOM"
+    ],
+    "cities": [
+      "Paran\u00e1",
+      "Kansas"
+    ],
+    "countries": [
+      "BR",
+      "US"
+    ]
+  }
+}

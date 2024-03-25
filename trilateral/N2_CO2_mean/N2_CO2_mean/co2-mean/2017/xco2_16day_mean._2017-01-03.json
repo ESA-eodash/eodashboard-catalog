@@ -1,0 +1,181 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "xco2_16day_mean._2017-01-03",
+  "properties": {
+    "datetime": "2017-01-03T00:00:00Z",
+    "proj:bbox": [
+      -180.3125,
+      -90.25,
+      179.6875,
+      90.25
+    ],
+    "proj:epsg": 4326.0,
+    "proj:shape": [
+      361.0,
+      576.0
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -180.3125,
+            -90.25
+          ],
+          [
+            179.6875,
+            -90.25
+          ],
+          [
+            179.6875,
+            90.25
+          ],
+          [
+            -180.3125,
+            90.25
+          ],
+          [
+            -180.3125,
+            -90.25
+          ]
+        ]
+      ]
+    },
+    "proj:transform": [
+      0.625,
+      0.0,
+      -180.3125,
+      0.0,
+      -0.5,
+      90.25,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.3125,
+          -90.25
+        ],
+        [
+          179.6875,
+          -90.25
+        ],
+        [
+          179.6875,
+          90.25
+        ],
+        [
+          -180.3125,
+          90.25
+        ],
+        [
+          -180.3125,
+          -90.25
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "preview",
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/map?collection=co2-mean&item=xco2_16day_mean._2017-01-03&assets=cog_default&rescale=0.000408%2C0.000419&colormap_name=rdylbu_r",
+      "type": "text/html",
+      "title": "Map of Item"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Mean Carbon Dioxide"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://staging-raster.delta-backend.com/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store-staging/co2-mean/xco2_16day_mean._2017-01-03.tif&resampling_method=nearest&bidx=1&colormap_name=rdylbu_r&rescale=0.000408,0.000419",
+      "type": "image/png",
+      "title": "N2_CO2_mean"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Mean Carbon Dioxide"
+    }
+  ],
+  "assets": {
+    "cog_default": {
+      "href": "s3://veda-data-store-staging/co2-mean/xco2_16day_mean._2017-01-03.tif",
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Default COG Layer",
+      "description": "Cloud optimized default layer to display on map",
+      "raster:bands": [
+        {
+          "scale": 1.0,
+          "nodata": 999999986991104.0,
+          "offset": 0.0,
+          "sampling": "area",
+          "data_type": "float64",
+          "histogram": {
+            "max": 0.0004100213100173278,
+            "min": 0.00040006028257266735,
+            "count": 11.0,
+            "buckets": [
+              43198.0,
+              21009.0,
+              27696.0,
+              12566.0,
+              23539.0,
+              34315.0,
+              40967.0,
+              4216.0,
+              292.0,
+              138.0
+            ]
+          },
+          "statistics": {
+            "mean": 0.0004036961652078464,
+            "stddev": 2.2869139210982847e-06,
+            "maximum": 0.0004100213100173278,
+            "minimum": 0.00040006028257266735,
+            "valid_percent": 100.0
+          }
+        }
+      ],
+      "roles": [
+        "data",
+        "layer"
+      ]
+    },
+    "rendered_preview": {
+      "href": "https://3hwvk17uek.execute-api.us-west-2.amazonaws.com/stac/preview.png?collection=co2-mean&item=xco2_16day_mean._2017-01-03&assets=cog_default&rescale=0.000408%2C0.000419&colormap_name=rdylbu_r",
+      "type": "image/png",
+      "title": "Rendered preview",
+      "rel": "preview",
+      "roles": [
+        "overview"
+      ]
+    }
+  },
+  "bbox": [
+    -180.3125,
+    -90.25,
+    179.6875,
+    90.25
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v1.1.0/schema.json"
+  ],
+  "collection": "co2-mean"
+}

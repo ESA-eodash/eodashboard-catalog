@@ -1,0 +1,131 @@
+{
+  "type": "Collection",
+  "id": "CH4",
+  "stac_version": "1.0.0",
+  "description": "## Methane observed by Sentinel-5p TROPOMI\n\nMethane (CH4) is, after carbon dioxide (CO2), the most important contributor to the anthropogenically enhanced greenhouse effect. Roughly three-quarters of methane emissions are anthropogenic and as such it is important to continue the record of satellite based measurements.\n\nTROPOMI aims at providing CH4 column concentrations with high sensitivity to the Earth\u2019s surface, good spatiotemporal coverage, and sufficient accuracy to facilitate inverse modeling of sources and sinks. TROPOMI uses absorption information from the Oxygen-A Band (760nm) and the SWIR spectral range to monitor CH4 abundances in the Earth\u2019s atmosphere.\n\nData from the GOSAT satellite instrument and ground-based TCCON instruments are used for verification and validation. With the most recent algorithm update, methane which was previously a land-only data product, now includes pixels with sun glint over parts of the ocean. Methane data is available in the OFFL data stream. Here below is an image of the monthly average methane from January 2022 including the ocean glint retrieval.\n\nSource: [http://www.tropomi.eu/data-products/methane](http://www.tropomi.eu/data-products/methane)\n\nRead more about [TROPOMI (TROPOspheric Monitoring Instrument)](http://www.tropomi.eu)\n\nThis TROPOMI CH4 product is available as a Collection on the [Euro Data Cube](https://eurodatacube.com): \n\n- Layer ID:\n- ID: AWS_CH4_WEEKLY\n- collectionID: 0ecb4a55-5ce2-4525-bdcb-a333d37d46ef\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./CH4/collection.json",
+      "type": "application/json",
+      "title": "Methane",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Daily Methane",
+      "code": "N1_CH4",
+      "id": "CH4",
+      "themes": [
+        "air"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Sentinel-5P"
+      ],
+      "sensor": [
+        "TROPOMI"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "subcode": "N1_CH4"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "subtitle": "Daily Methane",
+  "themes": [
+    "air"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-5P"
+  ],
+  "sensor": [
+    "TROPOMI"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N1_CH4",
+  "title": "Methane",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-11-15T00:00:00Z",
+          "2024-03-11T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "N1_CH4"
+    ],
+    "themes": [
+      "air"
+    ],
+    "satellite": [
+      "Sentinel-5P"
+    ],
+    "sensor": [
+      "TROPOMI"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CH4/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_CH4/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

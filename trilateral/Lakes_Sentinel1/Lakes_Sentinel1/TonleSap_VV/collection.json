@@ -1,0 +1,151 @@
+{
+  "type": "Collection",
+  "id": "TonleSap_VV",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2015/2015-05-15.json",
+      "type": "application/json",
+      "datetime": "2015-05-15"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2015/2015-10-18.json",
+      "type": "application/json",
+      "datetime": "2015-10-18"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2016/2016-03-22.json",
+      "type": "application/json",
+      "datetime": "2016-03-22"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2016/2016-10-24.json",
+      "type": "application/json",
+      "datetime": "2016-10-24"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2017/2017-10-07.json",
+      "type": "application/json",
+      "datetime": "2017-10-07"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2018/2018-05-11.json",
+      "type": "application/json",
+      "datetime": "2018-05-11"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2018/2018-10-20.json",
+      "type": "application/json",
+      "datetime": "2018-10-20"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2019/2019-05-06.json",
+      "type": "application/json",
+      "datetime": "2019-05-06"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2019/2019-10-09.json",
+      "type": "application/json",
+      "datetime": "2019-10-09"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2020/2020-05-12.json",
+      "type": "application/json",
+      "datetime": "2020-05-12"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2020/2020-10-15.json",
+      "type": "application/json",
+      "datetime": "2020-10-15"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2021/2021-05-07.json",
+      "type": "application/json",
+      "datetime": "2021-05-07"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2021/2021-10-10.json",
+      "type": "application/json",
+      "datetime": "2021-10-10"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2021/2021-10-24.json",
+      "type": "application/json",
+      "datetime": "2021-10-24"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2022/2022-05-14.json",
+      "type": "application/json",
+      "datetime": "2022-05-14"
+    },
+    {
+      "rel": "item",
+      "href": "./TonleSap_VV/2022/2022-10-17.json",
+      "type": "application/json",
+      "datetime": "2022-10-17"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Lakes_Sentinel1",
+      "wms:layers": [
+        "SENTINEL_1_IW_VV"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (Sentinel 1)"
+    }
+  ],
+  "endpointtype": "Sentinel Hub WMS",
+  "title": "Tonl\u00e9 Sap (S1-VV)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          101.938,
+          11.945,
+          106.37,
+          14.0674
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-05-15T00:00:00Z",
+          "2022-10-17T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}
