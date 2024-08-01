@@ -1,0 +1,135 @@
+{
+  "type": "Collection",
+  "id": "N3a2_total_suspended_matter_tri_esa",
+  "stac_version": "1.0.0",
+  "description": "## Water Quality Regional Maps\n\nTotal Suspended Matter (TSM) i.e, the concentration of organic and inorganic materials suspended in the water, is another proxy for water quality as different contaminants, including nutrients, trace metals, semi-volatile organic compounds, and numerous pesticides, can aggregate to these solids and brought in suspension. This can alter the state of the aquatic ecosystem and the use of freshwater resources. For instance, excessive suspended material might condition primary productivity. TSM concentration can be very high near the coasts due to the resuspension of terrestrial or submarine particulate matter by tides, waves, and currents.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./N3a2_total_suspended_matter_tri_esa/collection.json",
+      "type": "application/json",
+      "title": "Total suspended matter maps ESA",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Total suspended matter description",
+      "code": "N3a2_TSM_esa",
+      "id": "N3a2_total_suspended_matter_tri_esa",
+      "themes": [
+        "water"
+      ],
+      "yAxis": "%",
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "N3a2_TSM_esa"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "subtitle": "Total suspended matter description",
+  "yAxis": "%",
+  "themes": [
+    "water"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "N3a2_TSM_esa",
+  "title": "Total suspended matter maps ESA",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          0.49828179185742777,
+          40.49733319888819,
+          30.602052688598633,
+          45.8014030456543
+        ],
+        [
+          0.49828179185742777,
+          40.49733319888819,
+          30.602052688598633,
+          45.8014030456543
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-01-05T00:00:00Z",
+          "2024-07-13T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "N3a2_TSM_esa"
+    ],
+    "themes": [
+      "water"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

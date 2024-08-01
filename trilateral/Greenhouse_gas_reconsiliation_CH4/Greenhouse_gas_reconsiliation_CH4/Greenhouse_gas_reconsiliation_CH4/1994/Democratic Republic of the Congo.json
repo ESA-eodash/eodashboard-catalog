@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Democratic Republic of the Congo",
+  "properties": {
+    "start_datetime": "1994-01-01T00:00:00Z",
+    "end_datetime": "2003-01-01T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.3,
+        -4.317
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Methane from CCI RECCAP2"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Methane from CCI RECCAP2"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    15.290000000000001,
+    -4.327,
+    15.31,
+    -4.307
+  ],
+  "stac_extensions": [],
+  "collection": "Greenhouse_gas_reconsiliation_CH4"
+}

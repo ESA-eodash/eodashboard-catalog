@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "0590a401-0061-42c1-8f9a-fb11c0b66e8e",
+  "properties": {
+    "datetime": "2023-08-12T12:00:00Z",
+    "proj:epsg": 84,
+    "proj:bbox": [
+      74.875,
+      26.875,
+      79.125,
+      30.125
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            74.875,
+            26.875
+          ],
+          [
+            79.125,
+            26.875
+          ],
+          [
+            79.125,
+            30.125
+          ],
+          [
+            74.875,
+            30.125
+          ],
+          [
+            74.875,
+            26.875
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          74.875,
+          26.875
+        ],
+        [
+          79.125,
+          26.875
+        ],
+        [
+          79.125,
+          30.125
+        ],
+        [
+          74.875,
+          30.125
+        ],
+        [
+          74.875,
+          26.875
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Wind U Field Over Deli 2023 at 100m"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "wind_100m_u_newDeli",
+      "wms:layers": [
+        "VIS_ERA5_SINGLELEVEL_WIND_U_100M"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2023-08-12T12:00:00Z"
+      }
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Wind U Field Over Deli 2023 at 100m"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    74.875,
+    26.875,
+    79.125,
+    30.125
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "byoc-a274442a-0b16-45ec-bd74-68837fbe69a7"
+}

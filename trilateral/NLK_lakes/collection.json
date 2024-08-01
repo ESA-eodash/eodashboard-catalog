@@ -1,0 +1,144 @@
+{
+  "type": "Collection",
+  "id": "NLK_lakes",
+  "stac_version": "1.0.0",
+  "description": "Selected low-cloud-cover Landsat Collection-2 Level-2 Surface Reflectance scenes covering various lakes. Products from multiple missions and instruments are combined in this single collection for the purpose of visualizing RGB images. Note that the full item records are not interchangeable across instruments for purposes other than visualization and that the assets available are not the same for each instrument.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./NLK_lakes/collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (Landsat-8)",
+      "code": "NLK",
+      "id": "NLK_lakes",
+      "themes": [
+        "water"
+      ],
+      "cities": [
+        "Tonl\u00e9 Sap Lake",
+        "V\u00e4nern Lake",
+        "Aral Lake",
+        "Balaton Lake",
+        "Biwa Lake"
+      ],
+      "countries": [
+        "SW",
+        "HU",
+        "KH",
+        "KZ",
+        "UZ",
+        "JP"
+      ],
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "Landsat-8"
+      ],
+      "sensor": [
+        "OLI"
+      ],
+      "agency": [
+        "NASA"
+      ],
+      "subcode": "NLK"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "themes": [
+    "water"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Landsat-8"
+  ],
+  "sensor": [
+    "OLI"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "NLK",
+  "title": "Lakes collection (Landsat-8)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          10.69941816,
+          11.94560442,
+          138.17282533,
+          59.83119443
+        ],
+        [
+          10.69941816,
+          11.94560442,
+          138.17282533,
+          59.83119443
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1984-04-18T09:40:30.064088Z",
+          "2023-06-20T06:40:19.342057Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "NASA"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "NLK"
+    ],
+    "themes": [
+      "water"
+    ],
+    "satellite": [
+      "Landsat-8"
+    ],
+    "sensor": [
+      "OLI"
+    ],
+    "cities": [
+      "Tonl\u00e9 Sap Lake",
+      "V\u00e4nern Lake",
+      "Aral Lake",
+      "Balaton Lake",
+      "Biwa Lake"
+    ],
+    "countries": [
+      "SW",
+      "HU",
+      "KH",
+      "KZ",
+      "UZ",
+      "JP"
+    ]
+  }
+}

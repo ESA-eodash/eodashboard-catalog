@@ -1,0 +1,108 @@
+{
+  "type": "Collection",
+  "id": "HLS_NDVI",
+  "stac_version": "1.0.0",
+  "description": "## Normalized difference vegetation index from HLS\n\n## Dataset Description:\n\nDataset represents a NDVI calculated from Harmonized Landsat and Sentinel-2 Data over Punta Gorda, Florida, USA.\n\n- GeographicalCoverage: [-82.37,26.31,-81.9,27.03]\n- TemporalAvailability: \"['2022-09-05', '2022-09-30']\"\n- TemporalResolution: individual dates\n- Host: \"[VEDA](https://www.earthdata.nasa.gov/esds/veda)\"\n\n## Data Access\n\n- \"[VEDA Catalog](https://staging-stac.delta-backend.com/collections/hls-ndvi)\"\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./hls-ndvi/2022/ndvi_cog_2022-09-30_day.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store/hls-ndvi/ndvi_cog_2022-09-30_day.tif",
+      "datetime": "2022-09-30T00:00:00Z"
+    },
+    {
+      "rel": "item",
+      "href": "./hls-ndvi/2022/ndvi_cog_2022-09-05_day.json",
+      "type": "application/json",
+      "cog_href": "s3://veda-data-store/hls-ndvi/ndvi_cog_2022-09-05_day.tif",
+      "datetime": "2022-09-05T00:00:00Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=cfastie&rescale=-1,1",
+      "type": "image/png",
+      "title": "HLS_NDVI"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "NDVI from HLS"
+    }
+  ],
+  "subtitle": "NDVI calculated from Harmonized Landsat and Sentinel-2",
+  "themes": [
+    "biomass"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "Sentinel-2",
+    "Landsat"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA",
+    "NASA"
+  ],
+  "subcode": "HLS_NDVI",
+  "endpointtype": "VEDA_cog",
+  "title": "NDVI from HLS",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -82.37631113903603,
+          26.31173859507485,
+          -81.9037040761012,
+          27.035837664631245
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-09-05T00:00:00Z",
+          "2022-09-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "VEDA",
+      "description": "NASA's Visualization, Exploration, and Data Analysis (VEDA) project is an open-source science cyberinfrastructure for data processing, visualization, exploration, and geographic information systems (GIS) capabilities.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.earthdata.nasa.gov/esds/veda"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/HLS_NDVI/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

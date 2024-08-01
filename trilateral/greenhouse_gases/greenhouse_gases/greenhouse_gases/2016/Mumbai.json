@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Mumbai",
+  "properties": {
+    "start_datetime": "2016-01-01T00:00:00Z",
+    "end_datetime": "2020-04-01T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        72.8777,
+        19.076
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide at city level from GOSAT"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Carbon Dioxide at city level from GOSAT"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    72.8677,
+    19.066,
+    72.88770000000001,
+    19.086000000000002
+  ],
+  "stac_extensions": [],
+  "collection": "greenhouse_gases"
+}

@@ -1,0 +1,991 @@
+{
+  "type": "Collection",
+  "id": "NLK_lake_vanern",
+  "stac_version": "1.0.0",
+  "description": "V\u00e4nern lake Landsat-8",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC09_L2SP_195019_20230609_02_T1.json",
+      "type": "application/json",
+      "item": "LC09_L2SP_195019_20230609_02_T1",
+      "datetime": "2023-06-09T10:12:43.999938Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC09_L2SP_195019_20230524_02_T1.json",
+      "type": "application/json",
+      "item": "LC09_L2SP_195019_20230524_02_T1",
+      "datetime": "2023-05-24T10:12:48.006851Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LE07_L2SP_195019_20230518_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20230518_02_T1",
+      "datetime": "2023-05-18T08:08:31.077624Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC09_L2SP_195019_20230508_02_T1.json",
+      "type": "application/json",
+      "item": "LC09_L2SP_195019_20230508_02_T1",
+      "datetime": "2023-05-08T10:12:58.736354Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC08_L2SP_195019_20230430_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20230430_02_T1",
+      "datetime": "2023-04-30T10:12:48.495906Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC09_L2SP_195019_20230422_02_T1.json",
+      "type": "application/json",
+      "item": "LC09_L2SP_195019_20230422_02_T1",
+      "datetime": "2023-04-22T10:13:10.041811Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2023/LC09_L2SP_195019_20230305_02_T1.json",
+      "type": "application/json",
+      "item": "LC09_L2SP_195019_20230305_02_T1",
+      "datetime": "2023-03-05T10:13:32.500883Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2022/LE07_L2SP_195019_20220506_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20220506_02_T1",
+      "datetime": "2022-05-06T08:47:24.818807Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2022/LC08_L2SP_195019_20220411_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20220411_02_T1",
+      "datetime": "2022-04-11T10:13:08.835472Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LC08_L2SP_195019_20211017_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20211017_02_T1",
+      "datetime": "2021-10-17T10:13:45.138092Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LC08_L2SP_195019_20210830_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20210830_02_T1",
+      "datetime": "2021-08-30T10:13:32.468987Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LE07_L2SP_195019_20210822_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20210822_02_T1",
+      "datetime": "2021-08-22T09:12:51.469284Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LE07_L2SP_195019_20210603_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20210603_02_T1",
+      "datetime": "2021-06-03T09:19:40.640875Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LE07_L2SP_195019_20210416_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20210416_02_T1",
+      "datetime": "2021-04-16T09:23:44.181205Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2021/LC08_L2SP_195019_20210323_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20210323_02_T1",
+      "datetime": "2021-03-23T10:13:08.073854Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2020/LC08_L2SP_195019_20200624_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20200624_02_T1",
+      "datetime": "2020-06-24T10:13:03.108884Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2020/LE07_L2SP_195019_20200531_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20200531_02_T1",
+      "datetime": "2020-05-31T09:45:50.886561Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2020/LC08_L2SP_195019_20200421_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20200421_02_T1",
+      "datetime": "2020-04-21T10:12:52.704953Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LC08_L2SP_195019_20191028_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20191028_02_T1",
+      "datetime": "2019-10-28T10:13:43.187865Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LE07_L2SP_195019_20190918_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20190918_02_T1",
+      "datetime": "2019-09-18T09:59:03.399774Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LC08_L2SP_195019_20190825_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20190825_02_T1",
+      "datetime": "2019-08-25T10:13:30.096151Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LC08_L2SP_195019_20190622_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20190622_02_T1",
+      "datetime": "2019-06-22T10:13:11.310632Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LE07_L2SP_195019_20190529_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20190529_02_T1",
+      "datetime": "2019-05-29T10:03:32.228767Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LE07_L2SP_195019_20190513_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20190513_02_T1",
+      "datetime": "2019-05-13T10:04:08.110949Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2019/LC08_L2SP_195019_20190419_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20190419_02_T1",
+      "datetime": "2019-04-19T10:12:45.527271Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LC08_L2SP_195019_20180721_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20180721_02_T1",
+      "datetime": "2018-07-21T10:12:31.913391Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LE07_L2SP_195019_20180627_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20180627_02_T1",
+      "datetime": "2018-06-27T10:12:47.837126Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LC08_L2SP_195019_20180603_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20180603_02_T1",
+      "datetime": "2018-06-03T10:12:06.288870Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LC08_L2SP_195019_20180518_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20180518_02_T1",
+      "datetime": "2018-05-18T10:12:18.102707Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LE07_L2SP_195019_20180510_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20180510_02_T1",
+      "datetime": "2018-05-10T10:13:36.736752Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2018/LC08_L2SP_195019_20180331_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20180331_02_T1",
+      "datetime": "2018-03-31T10:12:46.801216Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2017/LE07_L2SP_195019_20170811_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20170811_02_T1",
+      "datetime": "2017-08-11T10:15:56.057514Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2017/LE07_L2SP_195019_20170523_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20170523_02_T1",
+      "datetime": "2017-05-23T10:15:49.787058Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2017/LC08_L2SP_195019_20170328_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20170328_02_T1",
+      "datetime": "2017-03-28T10:12:55.561543Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2017/LC08_L2SP_195019_20170224_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20170224_02_T1",
+      "datetime": "2017-02-24T10:13:12.862548Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2016/LC08_L2SP_195019_20161003_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20161003_02_T1",
+      "datetime": "2016-10-03T10:13:34.916024Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2016/LE07_L2SP_195019_20160504_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20160504_02_T1",
+      "datetime": "2016-05-04T10:15:42.554242Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2015/LE07_L2SP_195019_20151025_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20151025_02_T1",
+      "datetime": "2015-10-25T10:13:41.793927Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2015/LE07_L2SP_195019_20150907_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20150907_02_T1",
+      "datetime": "2015-09-07T10:13:12.327722Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2015/LE07_L2SP_195019_20150822_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20150822_02_T1",
+      "datetime": "2015-08-22T10:13:10.447648Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2015/LC08_L2SP_195019_20150814_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20150814_02_T1",
+      "datetime": "2015-08-14T10:13:01.621835Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2014/LE07_L2SP_195019_20140904_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20140904_02_T1",
+      "datetime": "2014-09-04T10:10:58.244905Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2014/LC08_L2SP_195019_20140827_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20140827_02_T1",
+      "datetime": "2014-08-27T10:13:23.996569Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2014/LC08_L2SP_195019_20140608_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20140608_02_T1",
+      "datetime": "2014-06-08T10:12:59.767115Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2014/LE07_L2SP_195019_20140328_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20140328_02_T1",
+      "datetime": "2014-03-28T10:10:16.355993Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2014/LE07_L2SP_195019_20140312_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20140312_02_T1",
+      "datetime": "2014-03-12T10:10:08.896214Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2013/LC08_L2SP_195019_20130723_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20130723_02_T1",
+      "datetime": "2013-07-23T10:15:17.303638Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2013/LC08_L2SP_195019_20130707_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20130707_02_T1",
+      "datetime": "2013-07-07T10:15:18.887752Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2013/LC08_L2SP_195019_20130327_02_T1.json",
+      "type": "application/json",
+      "item": "LC08_L2SP_195019_20130327_02_T1",
+      "datetime": "2013-03-27T10:14:18.256447Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2013/LE07_L2SP_195019_20130325_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20130325_02_T1",
+      "datetime": "2013-03-25T10:09:22.314253Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2012/LE07_L2SP_195019_20120525_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20120525_02_T1",
+      "datetime": "2012-05-25T10:07:54.213845Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2012/LE07_L2SP_195019_20120407_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20120407_02_T1",
+      "datetime": "2012-04-07T10:07:23.370463Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2011/LE07_L2SP_195019_20110507_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20110507_02_T1",
+      "datetime": "2011-05-07T10:06:55.723556Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2011/LT05_L2SP_195019_20110429_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20110429_02_T1",
+      "datetime": "2011-04-29T10:02:57.615044Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2011/LT05_L2SP_195019_20110328_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20110328_02_T1",
+      "datetime": "2011-03-28T10:03:09.205063Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2010/LT05_L2SP_195019_20101104_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20101104_02_T1",
+      "datetime": "2010-11-04T10:03:08.464050Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2010/LE07_L2SP_195019_20101011_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20101011_02_T1",
+      "datetime": "2010-10-11T10:05:39.742558Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2010/LE07_L2SP_195019_20100707_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20100707_02_T1",
+      "datetime": "2010-07-07T10:05:32.053949Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2009/LT05_L2SP_195019_20090626_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20090626_02_T1",
+      "datetime": "2009-06-26T10:01:51.070038Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2009/LT05_L2SP_195019_20090525_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20090525_02_T2",
+      "datetime": "2009-05-25T10:01:16.433013Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2009/LE07_L2SP_195019_20090501_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20090501_02_T1",
+      "datetime": "2009-05-01T10:03:43.747002Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2009/LT05_L2SP_195019_20090423_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20090423_02_T2",
+      "datetime": "2009-04-23T10:00:39.986019Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2008/LT05_L2SP_195019_20080725_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20080725_02_T1",
+      "datetime": "2008-07-25T09:59:51.714050Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2008/LE07_L2SP_195019_20080327_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20080327_02_T1",
+      "datetime": "2008-03-27T10:03:28.487178Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2007/LT05_L2SP_195019_20070824_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20070824_02_T1",
+      "datetime": "2007-08-24T10:06:34.475069Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LT05_L2SP_195019_20060922_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20060922_02_T1",
+      "datetime": "2006-09-22T10:07:11.658038Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LE07_L2SP_195019_20060914_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20060914_02_T1",
+      "datetime": "2006-09-14T10:02:52.032222Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LT05_L2SP_195019_20060805_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20060805_02_T1",
+      "datetime": "2006-08-05T10:06:38.544088Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LE07_L2SP_195019_20060610_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20060610_02_T1",
+      "datetime": "2006-06-10T10:03:20.746563Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LE07_L2SP_195019_20060423_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20060423_02_T1",
+      "datetime": "2006-04-23T10:03:20.167555Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2006/LT05_L2SP_195019_20060415_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20060415_02_T1",
+      "datetime": "2006-04-15T10:05:01.460081Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2005/LT05_L2SP_195019_20050428_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20050428_02_T1",
+      "datetime": "2005-04-28T10:00:30.762069Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2005/LE07_L2SP_195019_20050319_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20050319_02_T1",
+      "datetime": "2005-03-19T10:03:01.535410Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2005/LE07_L2SP_195019_20050303_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20050303_02_T1",
+      "datetime": "2005-03-03T10:03:00.645816Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LE07_L2SP_195019_20041010_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20041010_02_T1",
+      "datetime": "2004-10-10T10:01:50.224468Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LT05_L2SP_195019_20040916_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20040916_02_T2",
+      "datetime": "2004-09-16T09:57:11.646013Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LE07_L2SP_195019_20040823_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20040823_02_T1",
+      "datetime": "2004-08-23T10:02:06.312043Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LE07_L2SP_195019_20040807_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20040807_02_T1",
+      "datetime": "2004-08-07T10:02:07.682914Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LT05_L2SP_195019_20040409_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20040409_02_T1",
+      "datetime": "2004-04-09T09:52:50.610056Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LE07_L2SP_195019_20040401_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20040401_02_T1",
+      "datetime": "2004-04-01T10:02:35.588448Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2004/LT05_L2SP_195019_20040221_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20040221_02_T1",
+      "datetime": "2004-02-21T09:52:16.821063Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2003/LT05_L2SP_195019_20030829_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20030829_02_T1",
+      "datetime": "2003-08-29T09:50:33.232019Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2003/LE07_L2SP_195019_20030805_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20030805_02_T1",
+      "datetime": "2003-08-05T10:01:42.592267Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2003/LE07_L2SP_195019_20030330_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20030330_02_T1",
+      "datetime": "2003-03-30T10:02:01.403842Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2003/LE07_L2SP_195019_20030314_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20030314_02_T1",
+      "datetime": "2003-03-14T10:02:03.319191Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LE07_L2SP_195019_20020903_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20020903_02_T1",
+      "datetime": "2002-09-03T10:01:19.030073Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LE07_L2SP_195019_20020818_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20020818_02_T1",
+      "datetime": "2002-08-18T10:01:28.564044Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LE07_L2SP_195019_20020717_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20020717_02_T1",
+      "datetime": "2002-07-17T10:01:39.662326Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LT05_L2SP_195019_20020607_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20020607_02_T2",
+      "datetime": "2002-06-07T09:49:47.946000Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LT05_L2SP_195019_20020522_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20020522_02_T1",
+      "datetime": "2002-05-22T09:50:04.849031Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LE07_L2SP_195019_20020514_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20020514_02_T1",
+      "datetime": "2002-05-14T10:02:02.479417Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2002/LE07_L2SP_195019_20020428_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20020428_02_T1",
+      "datetime": "2002-04-28T10:02:08.676941Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2001/LE07_L2SP_195019_20010511_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20010511_02_T1",
+      "datetime": "2001-05-11T10:03:16.829419Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2001/LE07_L2SP_195019_20010324_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20010324_02_T1",
+      "datetime": "2001-03-24T10:03:30.413694Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LE07_L2SP_195019_20000812_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20000812_02_T1",
+      "datetime": "2000-08-12T10:04:24.699763Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LT05_L2SP_195019_20000703_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20000703_02_T2",
+      "datetime": "2000-07-03T09:50:05.645056Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LT05_L2SP_195019_20000617_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20000617_02_T1",
+      "datetime": "2000-06-17T09:49:43.763075Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LT05_L2SP_195019_20000516_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20000516_02_T1",
+      "datetime": "2000-05-16T09:49:06.686094Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LE07_L2SP_195019_20000508_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20000508_02_T1",
+      "datetime": "2000-05-08T10:05:28.605108Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LT05_L2SP_195019_20000329_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_20000329_02_T2",
+      "datetime": "2000-03-29T09:47:41.418025Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/2000/LE07_L2SP_195019_20000305_02_T1.json",
+      "type": "application/json",
+      "item": "LE07_L2SP_195019_20000305_02_T1",
+      "datetime": "2000-03-05T10:05:55.456969Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1997/LT05_L2SP_195019_19970406_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19970406_02_T1",
+      "datetime": "1997-04-06T09:40:19.659044Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1995/LT05_L2SP_195019_19950823_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19950823_02_T1",
+      "datetime": "1995-08-23T09:16:22.024000Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1994/LT05_L2SP_195019_19940804_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19940804_02_T1",
+      "datetime": "1994-08-04T09:30:54.451038Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1994/LT05_L2SP_195019_19940719_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19940719_02_T1",
+      "datetime": "1994-07-19T09:31:22.586038Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1994/LT05_L2SP_195019_19940601_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19940601_02_T2",
+      "datetime": "1994-06-01T09:32:31.868094Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1993/LT05_L2SP_195019_19930918_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19930918_02_T1",
+      "datetime": "1993-09-18T09:35:38.307012Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1993/LT05_L2SP_195019_19930630_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19930630_02_T1",
+      "datetime": "1993-06-30T09:35:44.088006Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1993/LT05_L2SP_195019_19930222_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19930222_02_T1",
+      "datetime": "1993-02-22T09:35:16.587006Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1992/LT05_L2SP_195019_19920611_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19920611_02_T1",
+      "datetime": "1992-06-11T09:36:44.745050Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1991/LT05_L2SP_195019_19910727_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19910727_02_T2",
+      "datetime": "1991-07-27T09:36:47.624012Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1991/LT05_L2SP_195019_19910508_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19910508_02_T1",
+      "datetime": "1991-05-08T09:35:40.063069Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1990/LT05_L2SP_195019_19900505_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19900505_02_T1",
+      "datetime": "1990-05-05T09:33:28.588044Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1989/LT05_L2SP_195019_19890822_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19890822_02_T1",
+      "datetime": "1989-08-22T09:39:52.913038Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1989/LT05_L2SP_195019_19890705_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19890705_02_T1",
+      "datetime": "1989-07-05T09:40:54.532019Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1989/LT05_L2SP_195019_19890518_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19890518_02_T1",
+      "datetime": "1989-05-18T09:41:44.657063Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1989/LT05_L2SP_195019_19890211_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19890211_02_T2",
+      "datetime": "1989-02-11T09:43:19.349025Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1988/LT05_L2SP_195019_19880515_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19880515_02_T1",
+      "datetime": "1988-05-15T09:43:42.435063Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1988/LT05_L2SP_195019_19880312_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19880312_02_T1",
+      "datetime": "1988-03-12T09:43:13.609069Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1987/LT05_L2SP_195019_19871004_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19871004_02_T1",
+      "datetime": "1987-10-04T09:40:35.000063Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1986/LT05_L2SP_195019_19861102_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19861102_02_T2",
+      "datetime": "1986-11-02T09:32:16.953056Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1986/LT05_L2SP_195019_19861017_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19861017_02_T1",
+      "datetime": "1986-10-17T09:32:50.806031Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1986/LT05_L2SP_195019_19860627_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19860627_02_T1",
+      "datetime": "1986-06-27T09:36:41.178069Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1986/LT05_L2SP_195019_19860408_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19860408_02_T1",
+      "datetime": "1986-04-08T09:38:54.696013Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1985/LT05_L2SP_195019_19850928_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19850928_02_T1",
+      "datetime": "1985-09-28T09:42:27.919044Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1985/LT05_L2SP_195019_19850912_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19850912_02_T2",
+      "datetime": "1985-09-12T09:42:38.529088Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1985/LT05_L2SP_195019_19850726_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19850726_02_T1",
+      "datetime": "1985-07-26T09:43:10.325050Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1985/LT05_L2SP_195019_19850710_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19850710_02_T2",
+      "datetime": "1985-07-10T09:43:17.404006Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1985/LT05_L2SP_195019_19850507_02_T2.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19850507_02_T2",
+      "datetime": "1985-05-07T09:43:26.944000Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1984/LT05_L2SP_195019_19840520_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19840520_02_T1",
+      "datetime": "1984-05-20T09:41:04.989019Z"
+    },
+    {
+      "rel": "item",
+      "href": "./landsat-c2l2-sr-lakes-vanern/1984/LT05_L2SP_195019_19840418_02_T1.json",
+      "type": "application/json",
+      "item": "LT05_L2SP_195019_19840418_02_T1",
+      "datetime": "1984-04-18T09:40:30.064088Z"
+    },
+    {
+      "rel": "xyz",
+      "href": "https://openveda.cloud/api/raster/stac/tiles/WebMercatorQuad/{z}/{x}/{y}?collection=landsat-c2l2-sr-lakes-vanern&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&no_data=0",
+      "type": "image/png",
+      "title": "NLK_lake_vanern"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (Landsat-8)"
+    }
+  ],
+  "themes": [
+    "oceans"
+  ],
+  "tags": [
+    "lake"
+  ],
+  "satellite": [
+    "Landsat-8"
+  ],
+  "sensor": [
+    "OLI"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "NLK_lake_vanern",
+  "endpointtype": "VEDA_tiles",
+  "title": "V\u00e4nern Lake",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          10.69941816,
+          57.35328549,
+          15.98482535,
+          59.83119443
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1984-04-18T09:40:30.064088Z",
+          "2023-06-09T10:12:43.999938Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NLK_lake_cloud_free/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Venice",
+  "properties": {
+    "start_datetime": "2019-01-04T11:50:00Z",
+    "end_datetime": "2024-07-13T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.5081,
+        45.3142
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    12.4981,
+    45.3042,
+    12.5181,
+    45.3242
+  ],
+  "stac_extensions": [],
+  "collection": "N3b_water_quality_chl_chart"
+}

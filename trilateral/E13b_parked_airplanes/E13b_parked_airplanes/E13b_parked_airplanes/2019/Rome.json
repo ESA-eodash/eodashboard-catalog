@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Rome",
+  "properties": {
+    "start_datetime": "2019-01-01T10:09:06Z",
+    "end_datetime": "2022-12-31T10:09:10Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        12.253597669510512,
+        41.80710100142961
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked Airplanes"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Parked Airplanes"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    12.243597669510512,
+    41.79710100142961,
+    12.263597669510512,
+    41.817101001429606
+  ],
+  "stac_extensions": [],
+  "collection": "E13b_parked_airplanes"
+}

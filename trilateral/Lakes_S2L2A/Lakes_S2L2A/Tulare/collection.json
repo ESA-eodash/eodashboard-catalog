@@ -1,0 +1,175 @@
+{
+  "type": "Collection",
+  "id": "Tulare",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-01-01.json",
+      "type": "application/json",
+      "datetime": "2023-01-01"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-01-06.json",
+      "type": "application/json",
+      "datetime": "2023-01-06"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-01-21.json",
+      "type": "application/json",
+      "datetime": "2023-01-21"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-01-26.json",
+      "type": "application/json",
+      "datetime": "2023-01-26"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-01-31.json",
+      "type": "application/json",
+      "datetime": "2023-01-31"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-02-05.json",
+      "type": "application/json",
+      "datetime": "2023-02-05"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-02-10.json",
+      "type": "application/json",
+      "datetime": "2023-02-10"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-02-15.json",
+      "type": "application/json",
+      "datetime": "2023-02-15"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-03-02.json",
+      "type": "application/json",
+      "datetime": "2023-03-02"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-03-07.json",
+      "type": "application/json",
+      "datetime": "2023-03-07"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-03-27.json",
+      "type": "application/json",
+      "datetime": "2023-03-27"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-04-01.json",
+      "type": "application/json",
+      "datetime": "2023-04-01"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-04-06.json",
+      "type": "application/json",
+      "datetime": "2023-04-06"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-04-11.json",
+      "type": "application/json",
+      "datetime": "2023-04-11"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-04-21.json",
+      "type": "application/json",
+      "datetime": "2023-04-21"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-04-26.json",
+      "type": "application/json",
+      "datetime": "2023-04-26"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-05-11.json",
+      "type": "application/json",
+      "datetime": "2023-05-11"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-05-16.json",
+      "type": "application/json",
+      "datetime": "2023-05-16"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-05-21.json",
+      "type": "application/json",
+      "datetime": "2023-05-21"
+    },
+    {
+      "rel": "item",
+      "href": "./Tulare/2023/2023-05-26.json",
+      "type": "application/json",
+      "datetime": "2023-05-26"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Lakes_S2L2A",
+      "wms:layers": [
+        "SENTINEL-2-L2A-TRUE-COLOR"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (Sentinel 2)"
+    }
+  ],
+  "endpointtype": "Sentinel Hub WMS",
+  "title": "Tulare",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -120,
+          35.72,
+          -119.4,
+          36.2
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-05-26T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

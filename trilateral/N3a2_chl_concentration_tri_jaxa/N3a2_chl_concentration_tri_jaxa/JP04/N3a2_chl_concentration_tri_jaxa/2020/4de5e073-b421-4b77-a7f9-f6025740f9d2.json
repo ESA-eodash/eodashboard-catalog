@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "4de5e073-b421-4b77-a7f9-f6025740f9d2",
+  "properties": {
+    "datetime": "2020-02-08T00:00:00Z",
+    "proj:epsg": 84,
+    "proj:bbox": [
+      136.4,
+      34.2,
+      137.4,
+      35.2
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            136.4,
+            34.2
+          ],
+          [
+            137.4,
+            34.2
+          ],
+          [
+            137.4,
+            35.2
+          ],
+          [
+            136.4,
+            35.2
+          ],
+          [
+            136.4,
+            34.2
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          136.4,
+          34.2
+        ],
+        [
+          137.4,
+          34.2
+        ],
+        [
+          137.4,
+          35.2
+        ],
+        [
+          136.4,
+          35.2
+        ],
+        [
+          136.4,
+          34.2
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "N3a2_chl_concentration_tri_jaxa",
+      "wms:layers": [
+        "AWS_JAXA_CHLA"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-02-08T00:00:00Z"
+      }
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration maps JAXA"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Nagoya"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    136.4,
+    34.2,
+    137.4,
+    35.2
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "N3a2_chl_concentration_tri_jaxa"
+}

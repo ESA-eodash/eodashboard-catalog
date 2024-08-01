@@ -1,0 +1,126 @@
+{
+  "type": "Collection",
+  "id": "N3a2_total_suspended_matter_tri_nasa",
+  "stac_version": "1.0.0",
+  "description": "## Water Quality Regional Maps\n\nTotal Suspended Matter (TSM) i.e, the concentration of organic and inorganic materials suspended in the water, is another proxy for water quality as different contaminants, including nutrients, trace metals, semi-volatile organic compounds, and numerous pesticides, can aggregate to these solids and brought in suspension. This can alter the state of the aquatic ecosystem and the use of freshwater resources. For instance, excessive suspended material might condition primary productivity. TSM concentration can be very high near the coasts due to the resuspension of terrestrial or submarine particulate matter by tides, waves, and currents.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./N3a2_total_suspended_matter_tri_nasa/2020/North Adriatic.json",
+      "type": "application/json",
+      "id": "NorthAdriaticTSM",
+      "latlng": "45.19752, 13.02978",
+      "country": "IT",
+      "city": "North Adriatic"
+    },
+    {
+      "rel": "item",
+      "href": "./N3a2_total_suspended_matter_tri_nasa/2020/San Francisco.json",
+      "type": "application/json",
+      "id": "US03SPM",
+      "latlng": "37.7775, -122.41638",
+      "country": "US",
+      "city": "San Francisco"
+    },
+    {
+      "rel": "item",
+      "href": "./N3a2_total_suspended_matter_tri_nasa/2020/New York.json",
+      "type": "application/json",
+      "id": "US04TSM",
+      "latlng": "41.0114, -73.09",
+      "country": "US",
+      "city": "New York"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Total suspended matter maps NASA"
+    }
+  ],
+  "subtitle": "Total suspended matter description",
+  "yAxis": "%",
+  "themes": [
+    "water"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "NASA"
+  ],
+  "subcode": "N3a2_tsm_nasa",
+  "geoDBID": "N3a2_nasa_tri",
+  "endpointtype": "GeoDB",
+  "title": "Total suspended matter maps NASA",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -122.42638000000001,
+          37.767500000000005,
+          13.03978,
+          45.207519999999995
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-01T00:00:00Z",
+          "2022-03-16T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      "North Adriatic",
+      "San Francisco",
+      "New York"
+    ],
+    "countries": [
+      "IT",
+      "US"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N3a2_total_suspended_matter_tri/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

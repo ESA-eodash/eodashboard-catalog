@@ -1,0 +1,343 @@
+{
+  "type": "Collection",
+  "id": "Vanern",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2017/2017-03-11.json",
+      "type": "application/json",
+      "datetime": "2017-03-11"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2017/2017-07-19.json",
+      "type": "application/json",
+      "datetime": "2017-07-19"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-04-10.json",
+      "type": "application/json",
+      "datetime": "2018-04-10"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-04-20.json",
+      "type": "application/json",
+      "datetime": "2018-04-20"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-05-05.json",
+      "type": "application/json",
+      "datetime": "2018-05-05"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-05-10.json",
+      "type": "application/json",
+      "datetime": "2018-05-10"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-05-15.json",
+      "type": "application/json",
+      "datetime": "2018-05-15"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-05-20.json",
+      "type": "application/json",
+      "datetime": "2018-05-20"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-05-30.json",
+      "type": "application/json",
+      "datetime": "2018-05-30"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-06-29.json",
+      "type": "application/json",
+      "datetime": "2018-06-29"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-07-04.json",
+      "type": "application/json",
+      "datetime": "2018-07-04"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-07-14.json",
+      "type": "application/json",
+      "datetime": "2018-07-14"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-07-24.json",
+      "type": "application/json",
+      "datetime": "2018-07-24"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-08-13.json",
+      "type": "application/json",
+      "datetime": "2018-08-13"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-09-02.json",
+      "type": "application/json",
+      "datetime": "2018-09-02"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-10-07.json",
+      "type": "application/json",
+      "datetime": "2018-10-07"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2018/2018-10-22.json",
+      "type": "application/json",
+      "datetime": "2018-10-22"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2019/2019-01-20.json",
+      "type": "application/json",
+      "datetime": "2019-01-20"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2019/2019-03-31.json",
+      "type": "application/json",
+      "datetime": "2019-03-31"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2019/2019-04-15.json",
+      "type": "application/json",
+      "datetime": "2019-04-15"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2019/2019-04-20.json",
+      "type": "application/json",
+      "datetime": "2019-04-20"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2020/2020-02-24.json",
+      "type": "application/json",
+      "datetime": "2020-02-24"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2020/2020-05-29.json",
+      "type": "application/json",
+      "datetime": "2020-05-29"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2020/2020-06-18.json",
+      "type": "application/json",
+      "datetime": "2020-06-18"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2020/2020-06-23.json",
+      "type": "application/json",
+      "datetime": "2020-06-23"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2020/2020-08-12.json",
+      "type": "application/json",
+      "datetime": "2020-08-12"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2020/2020-09-11.json",
+      "type": "application/json",
+      "datetime": "2020-09-11"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2020/2020-11-20.json",
+      "type": "application/json",
+      "datetime": "2020-11-20"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2021/2021-02-28.json",
+      "type": "application/json",
+      "datetime": "2021-02-28"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2021/2021-03-05.json",
+      "type": "application/json",
+      "datetime": "2021-03-05"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2021/2021-04-04.json",
+      "type": "application/json",
+      "datetime": "2021-04-04"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2021/2021-04-19.json",
+      "type": "application/json",
+      "datetime": "2021-04-19"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2021/2021-05-29.json",
+      "type": "application/json",
+      "datetime": "2021-05-29"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2021/2021-07-23.json",
+      "type": "application/json",
+      "datetime": "2021-07-23"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2021/2021-08-22.json",
+      "type": "application/json",
+      "datetime": "2021-08-22"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2021/2021-10-11.json",
+      "type": "application/json",
+      "datetime": "2021-10-11"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2022/2022-01-14.json",
+      "type": "application/json",
+      "datetime": "2022-01-14"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2022/2022-02-08.json",
+      "type": "application/json",
+      "datetime": "2022-02-08"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2022/2022-02-18.json",
+      "type": "application/json",
+      "datetime": "2022-02-18"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2022/2022-03-15.json",
+      "type": "application/json",
+      "datetime": "2022-03-15"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2022/2022-03-20.json",
+      "type": "application/json",
+      "datetime": "2022-03-20"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2022/2022-05-09.json",
+      "type": "application/json",
+      "datetime": "2022-05-09"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2022/2022-06-18.json",
+      "type": "application/json",
+      "datetime": "2022-06-18"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2022/2022-08-12.json",
+      "type": "application/json",
+      "datetime": "2022-08-12"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2023/2023-02-18.json",
+      "type": "application/json",
+      "datetime": "2023-02-18"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2023/2023-03-15.json",
+      "type": "application/json",
+      "datetime": "2023-03-15"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2023/2023-04-19.json",
+      "type": "application/json",
+      "datetime": "2023-04-19"
+    },
+    {
+      "rel": "item",
+      "href": "./Vanern/2023/2023-05-24.json",
+      "type": "application/json",
+      "datetime": "2023-05-24"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "Lakes_S2L2A",
+      "wms:layers": [
+        "SENTINEL-2-L2A-TRUE-COLOR"
+      ],
+      "role": [
+        "data"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (Sentinel 2)"
+    }
+  ],
+  "endpointtype": "Sentinel Hub WMS",
+  "title": "V\u00e4nern",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          10.6994,
+          57.353,
+          15.9848,
+          59.83119
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-03-11T00:00:00Z",
+          "2023-05-24T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,125 @@
+{
+  "type": "Collection",
+  "id": "lakes_alos2",
+  "stac_version": "1.0.0",
+  "description": "# ALOS-2 PALSAR-2 Data\r\n\r\n[source: JAXA](https://www.eorc.jaxa.jp/ALOS-2/en/about/palsar2.htm) \r\n\r\nThe PALSAR-2 aboard the ALOS-2 is a Synthetic Aperture Radar (SAR), which emits microwave and receives the reflection from the ground to acquire information.\r\nSince it does not need other sources of light such as the sun, SAR has the advantage of providing satellite images regardless day or night.\r\nThe frequency of transmitting and receiving microwave is L-band, which is less affected by clouds and rains.\r\nThis all-weather observing capability is suitable for monitoring disasters rapidly.\r\nIn addition, L-band microwave can reach to the ground partially penetrating through vegetation to obtain information of vegetation and ground surface.\r\n\r\n## Data Use\r\n\r\n- https://www.eorc.jaxa.jp/ALOS/en/alos-2/a2_data_e.htm \r\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./lakes_alos2/collection.json",
+      "type": "application/json",
+      "title": "Lakes collection (ALOS2-HH/HV)",
+      "code": "Lakes_ALOS2",
+      "id": "lakes_alos2",
+      "themes": [
+        "water"
+      ],
+      "cities": [],
+      "countries": [],
+      "locations": true,
+      "tags": [
+        "placeholder"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "Lakes_ALOS2"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "themes": [
+    "water"
+  ],
+  "locations": true,
+  "tags": [
+    "placeholder"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Lakes_ALOS2",
+  "title": "Lakes collection (ALOS2-HH/HV)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          102.05815802238166,
+          11.433163363655378,
+          105.91024325063184,
+          15.053883303657637
+        ],
+        [
+          102.05815802238166,
+          11.433163363655378,
+          105.91024325063184,
+          15.053883303657637
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-11-23T00:00:00Z",
+          "2022-12-14T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "Lakes_ALOS2"
+    ],
+    "themes": [
+      "water"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_ALOS2_lakes_alos2/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

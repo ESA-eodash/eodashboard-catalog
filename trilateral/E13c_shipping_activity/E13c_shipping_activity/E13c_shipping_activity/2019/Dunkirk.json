@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Dunkirk",
+  "properties": {
+    "start_datetime": "2019-01-14T11:06:56Z",
+    "end_datetime": "2022-12-16T10:56:59Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.285374,
+        51.036138
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Shipping Activity at Major Ports"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Shipping Activity at Major Ports"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    2.2753740000000002,
+    51.026138,
+    2.295374,
+    51.046138
+  ],
+  "stac_extensions": [],
+  "collection": "E13c_shipping_activity"
+}

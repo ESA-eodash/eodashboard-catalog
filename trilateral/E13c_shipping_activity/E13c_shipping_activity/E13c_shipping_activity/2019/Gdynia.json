@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Gdynia",
+  "properties": {
+    "start_datetime": "2019-01-23T09:55:33Z",
+    "end_datetime": "2022-12-18T09:55:32Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        18.510887,
+        54.537859
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Shipping Activity at Major Ports"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Shipping Activity at Major Ports"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    18.500887,
+    54.527859,
+    18.520887000000002,
+    54.547858999999995
+  ],
+  "stac_extensions": [],
+  "collection": "E13c_shipping_activity"
+}

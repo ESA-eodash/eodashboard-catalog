@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "Brandenburg",
+  "properties": {
+    "start_datetime": "2020-02-28T00:00:00Z",
+    "end_datetime": "2020-07-31T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.09063,
+        52.13141
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - productive area"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Agricultural production - productive area"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    13.080630000000001,
+    52.121410000000004,
+    13.10063,
+    52.14141
+  ],
+  "stac_extensions": [],
+  "collection": "agricultural_production_productive_area"
+}

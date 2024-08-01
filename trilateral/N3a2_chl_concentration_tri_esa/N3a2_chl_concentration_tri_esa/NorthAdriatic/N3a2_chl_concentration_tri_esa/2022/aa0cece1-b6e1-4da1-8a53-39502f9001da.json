@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "aa0cece1-b6e1-4da1-8a53-39502f9001da",
+  "properties": {
+    "datetime": "2022-11-19T00:00:00Z",
+    "proj:epsg": 84,
+    "proj:bbox": [
+      11.99828290939331,
+      44.49984836578369,
+      13.82183313369751,
+      45.8014030456543
+    ],
+    "proj:geometry": {
+      "type": "Polygon",
+      "crs": {
+        "type": "name",
+        "properties": {
+          "name": "urn:ogc:def:crs:OGC::CRS84"
+        }
+      },
+      "coordinates": [
+        [
+          [
+            11.99828290939331,
+            44.49984836578369
+          ],
+          [
+            13.82183313369751,
+            44.49984836578369
+          ],
+          [
+            13.82183313369751,
+            45.8014030456543
+          ],
+          [
+            11.99828290939331,
+            45.8014030456543
+          ],
+          [
+            11.99828290939331,
+            44.49984836578369
+          ]
+        ]
+      ]
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC::CRS84"
+      }
+    },
+    "coordinates": [
+      [
+        [
+          11.99828290939331,
+          44.49984836578369
+        ],
+        [
+          13.82183313369751,
+          44.49984836578369
+        ],
+        [
+          13.82183313369751,
+          45.8014030456543
+        ],
+        [
+          11.99828290939331,
+          45.8014030456543
+        ],
+        [
+          11.99828290939331,
+          44.49984836578369
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "wms",
+      "href": "https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54",
+      "type": "image/png",
+      "title": "N3a2_chl_concentration_tri_esa",
+      "wms:layers": [
+        "AWS_N3_CUSTOM_TRILATERAL"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2022-11-19T00:00:00Z"
+      }
+    },
+    {
+      "rel": "collection",
+      "href": "../../../collection.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a concentration maps ESA"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "North Adriatic"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    11.99828290939331,
+    44.49984836578369,
+    13.82183313369751,
+    45.8014030456543
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v1.0.0/schema.json"
+  ],
+  "collection": "N3a2_chl_concentration_tri_esa"
+}

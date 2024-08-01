@@ -1,0 +1,131 @@
+{
+  "type": "Collection",
+  "id": "Modis_SNPP_2023",
+  "stac_version": "1.0.0",
+  "description": "Modis detections that inform the most recent time-step\u2019s fire perimeter and active fire line calculation for 2023",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./Modis_SNPP_2023/collection.json",
+      "type": "application/json",
+      "title": "Modis Fire Detections",
+      "endpointtype": "Collection-only_OverwriteTimes",
+      "code": "Modis_SNPP_2023",
+      "id": "Modis_SNPP_2023",
+      "themes": [
+        "extreme-events"
+      ],
+      "yAxis": "detections",
+      "tags": [
+        "Optical",
+        "Open data",
+        "Fire"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "Modis_SNPP_2023",
+      "sensor": [
+        "MODIS"
+      ],
+      "satellite": [
+        "Aqua"
+      ]
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "yAxis": "detections",
+  "themes": [
+    "extreme-events"
+  ],
+  "tags": [
+    "Optical",
+    "Open data",
+    "Fire"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "Modis_SNPP_2023",
+  "sensor": [
+    "MODIS"
+  ],
+  "satellite": [
+    "Aqua"
+  ],
+  "title": "Modis Fire Detections",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -85,
+          180,
+          85
+        ],
+        [
+          -180,
+          -85,
+          180,
+          85
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-12-31T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "NASA National Oceanic and Atmospheric Administration",
+      "url": "https://www.nasa.gov/directorates/smd/joint-agency-satellite-division/noaa/"
+    },
+    {
+      "name": "NASA Earth Information System",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://www.earthdata.nasa.gov/eis"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "Modis_SNPP_2023"
+    ],
+    "themes": [
+      "extreme-events"
+    ],
+    "satellite": [
+      "Aqua"
+    ],
+    "sensor": [
+      "MODIS"
+    ]
+  },
+  "assets": {
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Modis_SNPP_2023/image.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

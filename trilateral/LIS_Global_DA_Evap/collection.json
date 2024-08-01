@@ -1,0 +1,113 @@
+{
+  "type": "Collection",
+  "id": "LIS_Global_DA_Evap",
+  "stac_version": "1.0.0",
+  "description": "# Evapotranspiration - LIS 10km Global DA\n\n## Dataset Description: \nDataset represents Gridded total evapotranspiration (in kg m-2 s-1) from 10km global LIS with assimilation.\n\n- Resolution: 10km\n- GeographicalCoverage: Global\n- TemporalAvailability: \"['2002-08-02', '2021-12-01']\"\n- TemporalResolution: daily\n- Host: \"[VEDA](https://www.earthdata.nasa.gov/esds/veda)\"\n\n## Data Access\n\n- \"[VEDA Catalog](https://staging-stac.delta-backend.com/collections/lis-global-da-evap)\"\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./LIS_Global_DA_Evap/collection.json",
+      "type": "application/json",
+      "title": "Evapotranspiration LIS",
+      "endpointtype": "VEDA_cog",
+      "subtitle": "Total evapotranspiration gridded from 10km global LIS with assimilation",
+      "code": "LIS_Global_DA_Evap",
+      "id": "LIS_Global_DA_Evap",
+      "themes": [
+        "biomass"
+      ],
+      "tags": [
+        "placeholder"
+      ],
+      "agency": [
+        "placeholder"
+      ],
+      "subcode": "LIS_Global_DA_Evap"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "subtitle": "Total evapotranspiration gridded from 10km global LIS with assimilation",
+  "themes": [
+    "biomass"
+  ],
+  "tags": [
+    "placeholder"
+  ],
+  "agency": [
+    "placeholder"
+  ],
+  "subcode": "LIS_Global_DA_Evap",
+  "title": "Evapotranspiration LIS",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9500000157243,
+          -59.98224871364589,
+          179.9973980503783,
+          89.9999999874719
+        ],
+        [
+          -179.9500000157243,
+          -59.98224871364589,
+          179.9973980503783,
+          89.9999999874719
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2002-08-02T00:00:00Z",
+          "2021-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "VEDA",
+      "description": "NASA's Visualization, Exploration, and Data Analysis (VEDA) project is an open-source science cyberinfrastructure for data processing, visualization, exploration, and geographic information systems (GIS) capabilities.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.earthdata.nasa.gov/esds/veda"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "LIS_Global_DA_Evap"
+    ],
+    "themes": [
+      "biomass"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/LIS_Global_DA_Evap/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

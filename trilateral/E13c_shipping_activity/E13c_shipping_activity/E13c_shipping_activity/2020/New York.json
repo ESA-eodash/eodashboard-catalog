@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "New York",
+  "properties": {
+    "start_datetime": "2020-01-02T00:00:00Z",
+    "end_datetime": "2020-05-21T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        -74.05,
+        40.6
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Shipping Activity at Major Ports"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Shipping Activity at Major Ports"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    -74.06,
+    40.59,
+    -74.03999999999999,
+    40.61
+  ],
+  "stac_extensions": [],
+  "collection": "E13c_shipping_activity"
+}

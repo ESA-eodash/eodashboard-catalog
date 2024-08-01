@@ -1,0 +1,147 @@
+{
+  "type": "Collection",
+  "id": "Gridded_EPA_Methane",
+  "stac_version": "1.0.0",
+  "description": "## Gridded 2012 EPA Methane Emissions - Forest Fires (daily)\n\n## Dataset Description: \nDataset represents a gridded inventory of U.S. anthropogenic methane emissions from various sources. The inventory is designed to be consistent with the 2016 U.S. EPA [Inventory of U.S. Greenhouse Gas Emissions and Sinks](https://www.epa.gov/ghgemissions/us-greenhouse-gas-inventory-report-1990-2014) estimates for the year 2012, which presents national totals for different source types. The gridded inventory was developed using a wide range of databases at the state, county, local, and point source level to allocate the spatial and temporal distribution of emissions for individual source types.\n\nThis data can be used by researchers to better compare the national-level inventory with measurement results that may be at other scales.\n\n- Resolution: 0.1\u00b0 x 0.1\u00b0\n- GeographicalCoverage: North America (-128, 23, -72, 52)\n- TemporalAvailability: \"['2012-01-01', '2012-12-31']\"\n- TemporalResolution: daily\n- Provider: \"[EPA](https://www.epa.gov/ghgemissions/gridded-2012-methane-emissions)\"\n- Host: \"[VEDA](https://www.earthdata.nasa.gov/esds/veda)\"\n\n## Data Access\n\n- \"[VEDA Catalog](https://staging-stac.delta-backend.com/collections/EPA-daily-emissions_5_Forest_Fires)\"\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    },
+    {
+      "rel": "child",
+      "href": "./EPA_Field_burning_Monthly/collection.json",
+      "type": "application/json",
+      "title": "Field Burning monthly - EPA Methane Emissions 2012",
+      "endpointtype": "VEDA_cog",
+      "subtitle": "Emissions from sector 4F from agricultural field burning (monthly), gridded",
+      "code": "EPA_Field_burning_Monthly",
+      "id": "EPA_Field_burning_Monthly",
+      "themes": [
+        "biomass"
+      ],
+      "subcode": "EPA_Field_burning_Monthly"
+    },
+    {
+      "rel": "child",
+      "href": "./EPA_Forest_fire_Methane_Daily/collection.json",
+      "type": "application/json",
+      "title": "Forest Fires daily - EPA Methane Emissions 2012",
+      "endpointtype": "VEDA_cog",
+      "subtitle": "Daily emissions from sector 5 from forest fires for 2012, gridded.",
+      "code": "EPA_Forest_fire_Methane_Daily",
+      "id": "EPA_Forest_fire_Methane_Daily",
+      "themes": [
+        "biomass"
+      ],
+      "subcode": "EPA_Forest_fire_Methane_Daily"
+    },
+    {
+      "rel": "child",
+      "href": "./EPA_Forest_fire_Methane_Yearly/collection.json",
+      "type": "application/json",
+      "title": "Forest Fires annual - EPA Methane Emissions 2012",
+      "endpointtype": "VEDA_cog",
+      "subtitle": "Emissions from sector 5 from forest fires.",
+      "code": "EPA_Forest_fire_Methane_Yearly",
+      "id": "EPA_Forest_fire_Methane_Yearly",
+      "themes": [
+        "biomass"
+      ],
+      "subcode": "EPA_Forest_fire_Methane_Yearly"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Earth Observing Dashboard"
+    }
+  ],
+  "sci:citation": "Maasakkers JD, Jacob DJ, Sulprizio MP, Turner AJ, Weitz M, Wirth T, Hight C, DeFigueiredo M, Desai M, Schmeltz R, Hockstad L, Bloom AA, Bowman KW, Jeong S, Fischer ML. Gridded National Inventory of U.S. Methane Emissions. Environ Sci Technol. 2016 Dec 6;50(23):13123-13133. doi: 10.1021/acs.est.6b02878. Epub 2016 Nov 16. PMID: 27934278.",
+  "sci:publications": [
+    {
+      "doi": "10.1021/acs.est.6b02878"
+    }
+  ],
+  "themes": [
+    "biomass"
+  ],
+  "tags": [
+    "methane"
+  ],
+  "agency": [
+    "EPA"
+  ],
+  "subcode": "EPA",
+  "title": "Gridded National Inventory of U.S. Methane Emissions",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -129.99999694660497,
+          19.999999240339655,
+          -59.99999923869774,
+          54.99999694496308
+        ],
+        [
+          -129.99999694660497,
+          19.999999240339655,
+          -59.99999923869774,
+          54.99999694496308
+        ],
+        [
+          -129.99999694660497,
+          19.999999240339655,
+          -59.99999923869774,
+          54.99999694496308
+        ],
+        [
+          -129.99999694660497,
+          19.999999240339655,
+          -59.99999923869774,
+          54.99999694496308
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2012-01-01T00:00:00Z",
+          "2012-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "VEDA",
+      "description": "NASA's Visualization, Exploration, and Data Analysis (VEDA) project is an open-source science cyberinfrastructure for data processing, visualization, exploration, and geographic information systems (GIS) capabilities.",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.earthdata.nasa.gov/esds/veda"
+    },
+    {
+      "name": "EPA",
+      "roles": [
+        "producer",
+        "processor",
+        "licensor"
+      ],
+      "url": "https://www.epa.gov/ghgemissions/gridded-2012-methane-emissions"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "EPA_Forest_fire_Methane_Yearly",
+      "EPA_Forest_fire_Methane_Daily",
+      "EPA_Field_burning_Monthly"
+    ],
+    "themes": [
+      "biomass"
+    ]
+  }
+}
